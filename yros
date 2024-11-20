@@ -1,0 +1,21 @@
+<?php
+
+/**
+ * Yros console command
+ */
+
+ /**
+  * Welcome to YROS, PHP light weight framework
+  * can create high quality web applications
+  */
+require_once "app/system/functions/console_command.php";
+require_once "app/system/functions/yros_command.php";
+
+
+
+
+
+
+
+
+?>

@@ -1,0 +1,191 @@
+{
+    "pages/welcome.php@Main/welcome_page": {
+        "view": "pages/welcome.php",
+        "controller": "Main",
+        "function": "welcome_page",
+        "path": "Main/welcome_page",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "pages/addprod.php@Products/addproducts": {
+        "view": "pages/addprod.php",
+        "controller": "Products",
+        "function": "addproducts",
+        "path": "Products/addproducts",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/topbar.php@Products/addproducts": {
+        "view": "includes/topbar.php",
+        "controller": "Products",
+        "function": "addproducts",
+        "path": "Products/addproducts",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/sidebar.php@Products/addproducts": {
+        "view": "includes/sidebar.php",
+        "controller": "Products",
+        "function": "addproducts",
+        "path": "Products/addproducts",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "errors/page_not_found.php@Main/page_not_found": {
+        "view": "errors/page_not_found.php",
+        "controller": "Main",
+        "function": "page_not_found",
+        "path": "Main/page_not_found",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/sidebar.php@Products/prodlist": {
+        "view": "includes/sidebar.php",
+        "controller": "Products",
+        "function": "prodlist",
+        "path": "Products/prodlist",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/topbar.php@Products/prodlist": {
+        "view": "includes/topbar.php",
+        "controller": "Products",
+        "function": "prodlist",
+        "path": "Products/prodlist",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "pages/prodlist.php@Products/prodlist": {
+        "view": "pages/prodlist.php",
+        "controller": "Products",
+        "function": "prodlist",
+        "path": "Products/prodlist",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/topbar.php@Products/edit": {
+        "view": "includes/topbar.php",
+        "controller": "Products",
+        "function": "edit",
+        "path": "Products/edit",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/sidebar.php@Products/edit": {
+        "view": "includes/sidebar.php",
+        "controller": "Products",
+        "function": "edit",
+        "path": "Products/edit",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "pages/editproduct.php@Products/edit": {
+        "view": "pages/editproduct.php",
+        "controller": "Products",
+        "function": "edit",
+        "path": "Products/edit",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "pages/login.php@Products/login": {
+        "view": "pages/login.php",
+        "controller": "Products",
+        "function": "login",
+        "path": "Products/login",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "pages/login.php@Accounts/login": {
+        "view": "pages/login.php",
+        "controller": "Accounts",
+        "function": "login",
+        "path": "Accounts/login",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "pages/signup.php@Accounts/signup": {
+        "view": "pages/signup.php",
+        "controller": "Accounts",
+        "function": "signup",
+        "path": "Accounts/signup",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/topbar.php@Products/checkout": {
+        "view": "includes/topbar.php",
+        "controller": "Products",
+        "function": "checkout",
+        "path": "Products/checkout",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "pages/checkout.php@Products/checkout": {
+        "view": "pages/checkout.php",
+        "controller": "Products",
+        "function": "checkout",
+        "path": "Products/checkout",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/sidebar.php@Products/checkout": {
+        "view": "includes/sidebar.php",
+        "controller": "Products",
+        "function": "checkout",
+        "path": "Products/checkout",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "pages/categorylist.php@Products/category": {
+        "view": "pages/categorylist.php",
+        "controller": "Products",
+        "function": "category",
+        "path": "Products/category",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/topbar.php@Products/category": {
+        "view": "includes/topbar.php",
+        "controller": "Products",
+        "function": "category",
+        "path": "Products/category",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/sidebar.php@Products/category": {
+        "view": "includes/sidebar.php",
+        "controller": "Products",
+        "function": "category",
+        "path": "Products/category",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/topbar.php@Products/addcategory": {
+        "view": "includes/topbar.php",
+        "controller": "Products",
+        "function": "addcategory",
+        "path": "Products/addcategory",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/sidebar.php@Products/addcategory": {
+        "view": "includes/sidebar.php",
+        "controller": "Products",
+        "function": "addcategory",
+        "path": "Products/addcategory",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "pages/categorylist.php@Products/addcategory": {
+        "view": "pages/categorylist.php",
+        "controller": "Products",
+        "function": "addcategory",
+        "path": "Products/addcategory",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "pages/addcategory.php@Products/addcategory": {
+        "view": "pages/addcategory.php",
+        "controller": "Products",
+        "function": "addcategory",
+        "path": "Products/addcategory",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/topbar.php@Products/categoryupdate": {
+        "view": "includes/topbar.php",
+        "controller": "Products",
+        "function": "categoryupdate",
+        "path": "Products/categoryupdate",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/sidebar.php@Products/categoryupdate": {
+        "view": "includes/sidebar.php",
+        "controller": "Products",
+        "function": "categoryupdate",
+        "path": "Products/categoryupdate",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "pages/editcategory.php@Products/categoryupdate": {
+        "view": "pages/editcategory.php",
+        "controller": "Products",
+        "function": "categoryupdate",
+        "path": "Products/categoryupdate",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    }
+}
