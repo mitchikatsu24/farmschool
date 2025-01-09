@@ -187,5 +187,208 @@
         "function": "categoryupdate",
         "path": "Products/categoryupdate",
         "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "pages/saleslist.php@Sales/saleslist": {
+        "view": "pages/saleslist.php",
+        "controller": "Sales",
+        "function": "saleslist",
+        "path": "Sales/saleslist",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/topbar.php@Sales/saleslist": {
+        "view": "includes/topbar.php",
+        "controller": "Sales",
+        "function": "saleslist",
+        "path": "Sales/saleslist",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/sidebar.php@Sales/saleslist": {
+        "view": "includes/sidebar.php",
+        "controller": "Sales",
+        "function": "saleslist",
+        "path": "Sales/saleslist",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "pages/dashboard.php@Sales/dashboard": {
+        "view": "pages/dashboard.php",
+        "controller": "Sales",
+        "function": "dashboard",
+        "path": "Sales/dashboard",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/topbar.php@Sales/dashboard": {
+        "view": "includes/topbar.php",
+        "controller": "Sales",
+        "function": "dashboard",
+        "path": "Sales/dashboard",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/sidebar.php@Sales/dashboard": {
+        "view": "includes/sidebar.php",
+        "controller": "Sales",
+        "function": "dashboard",
+        "path": "Sales/dashboard",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "pages/addinventory.php@Inventory/addinventory": {
+        "view": "pages/addinventory.php",
+        "controller": "Inventory",
+        "function": "addinventory",
+        "path": "Inventory/addinventory",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/topbar.php@Inventory/addinventory": {
+        "view": "includes/topbar.php",
+        "controller": "Inventory",
+        "function": "addinventory",
+        "path": "Inventory/addinventory",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/sidebar.php@Inventory/addinventory": {
+        "view": "includes/sidebar.php",
+        "controller": "Inventory",
+        "function": "addinventory",
+        "path": "Inventory/addinventory",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/topbar.php@Inventory/inventorylist": {
+        "view": "includes/topbar.php",
+        "controller": "Inventory",
+        "function": "inventorylist",
+        "path": "Inventory/inventorylist",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/sidebar.php@Inventory/inventorylist": {
+        "view": "includes/sidebar.php",
+        "controller": "Inventory",
+        "function": "inventorylist",
+        "path": "Inventory/inventorylist",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "pages/inventory_list.php@Inventory/inventorylist": {
+        "view": "pages/inventory_list.php",
+        "controller": "Inventory",
+        "function": "inventorylist",
+        "path": "Inventory/inventorylist",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/topbar.php@Inventory/updateinventory": {
+        "view": "includes/topbar.php",
+        "controller": "Inventory",
+        "function": "updateinventory",
+        "path": "Inventory/updateinventory",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/sidebar.php@Inventory/updateinventory": {
+        "view": "includes/sidebar.php",
+        "controller": "Inventory",
+        "function": "updateinventory",
+        "path": "Inventory/updateinventory",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "pages/update_inventory@Inventory/updateinventory": {
+        "view": "pages/update_inventory",
+        "controller": "Inventory",
+        "function": "updateinventory",
+        "path": "Inventory/updateinventory",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "pages/login.php@Accounts/logout": {
+        "view": "pages/login.php",
+        "controller": "Accounts",
+        "function": "logout",
+        "path": "Accounts/logout",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/topbar.php@Accounts/login": {
+        "view": "includes/topbar.php",
+        "controller": "Accounts",
+        "function": "login",
+        "path": "Accounts/login",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/sidebar.php@Accounts/login": {
+        "view": "includes/sidebar.php",
+        "controller": "Accounts",
+        "function": "login",
+        "path": "Accounts/login",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "pages/dashboard.php@Accounts/login": {
+        "view": "pages/dashboard.php",
+        "controller": "Accounts",
+        "function": "login",
+        "path": "Accounts/login",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "pages/login.php@Sales/dashboard": {
+        "view": "pages/login.php",
+        "controller": "Sales",
+        "function": "dashboard",
+        "path": "Sales/dashboard",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/topbar.php@Sales/dashboards": {
+        "view": "includes/topbar.php",
+        "controller": "Sales",
+        "function": "dashboards",
+        "path": "Sales/dashboards",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/sidebar.php@Sales/dashboards": {
+        "view": "includes/sidebar.php",
+        "controller": "Sales",
+        "function": "dashboards",
+        "path": "Sales/dashboards",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "pages/dashboard.php@Sales/dashboards": {
+        "view": "pages/dashboard.php",
+        "controller": "Sales",
+        "function": "dashboards",
+        "path": "Sales/dashboards",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/topbar.php@Bulletin/bulletin": {
+        "view": "includes/topbar.php",
+        "controller": "Bulletin",
+        "function": "bulletin",
+        "path": "Bulletin/bulletin",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/sidebar.php@Bulletin/bulletin": {
+        "view": "includes/sidebar.php",
+        "controller": "Bulletin",
+        "function": "bulletin",
+        "path": "Bulletin/bulletin",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "pages/bulliten.php@Bulletin/bulletin": {
+        "view": "pages/bulliten.php",
+        "controller": "Bulletin",
+        "function": "bulletin",
+        "path": "Bulletin/bulletin",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "pages/bulletinlist.php@Bulletin/bulletindisplay": {
+        "view": "pages/bulletinlist.php",
+        "controller": "Bulletin",
+        "function": "bulletindisplay",
+        "path": "Bulletin/bulletindisplay",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/topbar.php@Bulletin/bulletindisplay": {
+        "view": "includes/topbar.php",
+        "controller": "Bulletin",
+        "function": "bulletindisplay",
+        "path": "Bulletin/bulletindisplay",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/sidebar.php@Bulletin/bulletindisplay": {
+        "view": "includes/sidebar.php",
+        "controller": "Bulletin",
+        "function": "bulletindisplay",
+        "path": "Bulletin/bulletindisplay",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
     }
 }

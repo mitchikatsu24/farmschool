@@ -13,6 +13,7 @@
             echo 'Hello Yros user. This is Accounts controller';
         }
         function login(){
+            checklogin();
             view_page('login.php');
         }
 
@@ -26,7 +27,8 @@
             if(empty($result)){
                 back_to_previous_page();
             }else{
-                redirect("products/addproducts");
+                $_SESSION['login'] =1;
+                redirect("sales/dashboard");
             }
 
         }
@@ -39,6 +41,11 @@
             back_to_previous_page();
 
         }
+        function logout(){
+            $_SESSION['login'] = 0;
+            view_page('login.php');
+        }
+        
         
 
 

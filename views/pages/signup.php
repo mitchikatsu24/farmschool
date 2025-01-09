@@ -2,100 +2,146 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-<meta name="description" content="POS - Bootstrap Admin Template">
-<meta name="keywords" content="admin, estimates, bootstrap, business, corporate, creative, invoice, html5, responsive, Projects">
-<meta name="author" content="Dreamguys - Bootstrap Admin Template">
-<meta name="robots" content="noindex, nofollow">
-<title>Login - Pos admin template</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Create an Account</title>
 
+<!-- Favicon -->
 <link rel="shortcut icon" type="image/x-icon" href="<?=assets?>/img/favicon.jpg">
 
+<!-- Stylesheets -->
 <link rel="stylesheet" href="<?=assets?>/css/bootstrap.min.css">
-
 <link rel="stylesheet" href="<?=assets?>/plugins/fontawesome/css/fontawesome.min.css">
 <link rel="stylesheet" href="<?=assets?>/plugins/fontawesome/css/all.min.css">
 
-<link rel="stylesheet" href="<?=assets?>/css/style.css">
+<!-- Custom Styles -->
+<style>
+    body {
+        background: url('<?=assets?>/img/background.jpg') no-repeat center center/cover;
+        height: 100vh;
+        margin: 0;
+        font-family: 'Arial', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .signup-wrapper {
+        width: 100%;
+        max-width: 400px;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+    }
+
+    .signup-header {
+        text-align: center;
+        padding: 20px;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .signup-header img {
+        width: 60px;
+        margin-bottom: 10px;
+    }
+
+    .signup-header h3 {
+        margin: 0;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .signup-header h4 {
+        margin-top: 5px;
+        color: #666;
+        font-size: 0.9rem;
+    }
+
+    .signup-content {
+        padding: 20px;
+    }
+
+    .form-group label {
+        font-weight: 600;
+        color: #333;
+    }
+
+    .form-group input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        margin-top: 5px;
+        box-sizing: border-box;
+    }
+
+    .form-group input:focus {
+        border-color: #007bff;
+        outline: none;
+    }
+
+    .btn-signup {
+        width: 100%;
+        background: #28a745;
+        color: #fff;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+        cursor: pointer;
+        margin-top: 15px;
+    }
+
+    .btn-signup:hover {
+        background: #218838;
+    }
+
+    .form-footer {
+        text-align: center;
+        margin-top: 15px;
+        font-size: 0.9rem;
+    }
+
+    .form-footer a {
+        color: #007bff;
+        text-decoration: none;
+    }
+
+    .form-footer a:hover {
+        text-decoration: underline;
+    }
+</style>
 </head>
-<body class="account-page">
+<body>
 
-<div class="main-wrapper">
-<div class="account-content">
-<div class="login-wrapper">
-<div class="login-content">
-<div class="login-userset">
-<div class="login-logo">
-<img src="<?=assets?>/img/logo.png" alt="img">
+<div class="signup-wrapper">
+    <div class="signup-header">
+        <img src="<?=assets?>/img/icons/farm.jpg" alt="Logo">
+        <h3>Create an Account</h3>
+        <h4>Continue where you left off</h4>
+    </div>
+    <div class="signup-content">
+        <form action="/accounts/createacc" method="post">
+            <div class="form-group">
+                <label for="fullname">Full Name</label>
+                <input id="fullname" name="fullname" type="text" placeholder="Enter your full name">
+            </div>
+            <div class="form-group">
+                <label for="username">Email</label>
+                <input id="username" name="username" type="text" placeholder="Enter your email address">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input id="password" name="password" type="password" placeholder="Enter your password">
+            </div>
+            <button type="submit" class="btn-signup">Sign Up</button>
+        </form>
+        <div class="form-footer">
+            <p>Already a user? <a href="/accounts/login">Sign In</a></p>
+        </div>
+    </div>
 </div>
-<form action="/accounts/createacc" method="post">
-<div class="login-userheading">
-<h3>Create an Account</h3>
-<h4>Continue where you left off</h4>
-</div>
-<div class="form-login">
-<label>Full Name</label>
-<div class="form-addons">
-<input name ="fullname" type="text" placeholder="Enter your full name">
-<img src="<?=assets?>/img/icons/users1.svg" alt="img">
-</div>
-</div>
-<div class="form-login">
-<label>username</label>
-<div class="form-addons">
-<input name ="username" type="text" placeholder="Enter your email address">
-<img src="<?=assets?>/img/icons/mail.svg" alt="img">
-</div>
-</div>
-<div class="form-login">
-<label>Password</label>
-<div class="pass-group">
-<input name ="password" type="password" class="pass-input" placeholder="Enter your password">
-<span class="fas toggle-password fa-eye-slash"></span>
-</div>
-</div>
-<div class="form-login">
-<button class="btn btn-login">Sign Up</button>
-</div>
-<div class="signinform text-center">
-<h4>Already a user? <a href="/accounts/login" class="hover-a">Sign In</a></h4>
-</div>
-<div class="form-setlogin">
-<h4>Or sign up with</h4>
-</div>
-<div class="form-sociallink">
-<ul>
-<li>
-<a href="javascript:void(0);">
-<img src="<?=assets?>/img/icons/google.png" class="me-2" alt="google">
-Sign Up using Google
-</a>
-</li>
-<li>
- <a href="javascript:void(0);">
-<img src="<?=assets?>/img/icons/facebook.png" class="me-2" alt="google">
-Sign Up using Facebook
-</a>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="login-img">
-<img src="<?=assets?>/img/login.jpg" alt="img">
-</div>
-</div>
-</div>
-</div>
-</form>
 
-
-<script src="<?=assets?>/js/jquery-3.6.0.min.js"></script>
-
-<script src="<?=assets?>/js/feather.min.js"></script>
-
-<script src="<?=assets?>/js/bootstrap.bundle.min.js"></script>
-
-<script src="<?=assets?>/js/script.js"></script>
 </body>
 </html>

@@ -1,0 +1,138 @@
+[2025-01-05 08:29:28] Error: [2] Undefined array key "login" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\app\auto\autorun.php:7
+[2025-01-05 08:29:39] Error: [2] Undefined array key "login" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\app\auto\autorun.php:7
+[2025-01-05 08:29:45] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:39
+[2025-01-05 08:29:45] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:158
+[2025-01-05 08:38:15] Error: [2] include(topbar.php): Failed to open stream: No such file or directory - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\bulliten.php:12
+[2025-01-05 08:38:15] Error: [2] include(): Failed opening 'topbar.php' for inclusion (include_path='C:\xampp\php\PEAR') - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\bulliten.php:12
+[2025-01-05 08:38:15] Error: [2] include(sidebar.php): Failed to open stream: No such file or directory - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\bulliten.php:18
+[2025-01-05 08:38:15] Error: [2] include(): Failed opening 'sidebar.php' for inclusion (include_path='C:\xampp\php\PEAR') - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\bulliten.php:18
+[2025-01-05 08:46:10] Error: [2] include(topbar.php): Failed to open stream: No such file or directory - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\bulliten.php:12
+[2025-01-05 08:46:10] Error: [2] include(): Failed opening 'topbar.php' for inclusion (include_path='C:\xampp\php\PEAR') - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\bulliten.php:12
+[2025-01-05 08:46:10] Error: [2] include(sidebar.php): Failed to open stream: No such file or directory - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\bulliten.php:18
+[2025-01-05 08:46:10] Error: [2] include(): Failed opening 'sidebar.php' for inclusion (include_path='C:\xampp\php\PEAR') - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\bulliten.php:18
+[2025-01-05 14:41:49] Error: [2] Undefined array key "login" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\app\auto\autorun.php:7
+[2025-01-05 14:42:01] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:39
+[2025-01-05 14:42:01] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:158
+[2025-01-05 14:42:20] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:39
+[2025-01-05 14:42:20] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:158
+[2025-01-05 14:43:11] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:39
+[2025-01-05 14:43:11] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:158
+[2025-01-05 14:44:57] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:39
+[2025-01-05 14:44:57] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:158
+[2025-01-05 14:45:04] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:39
+[2025-01-05 14:45:04] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:158
+[2025-01-05 14:45:08] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:39
+[2025-01-05 14:45:08] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:158
+[2025-01-05 14:45:17] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:39
+[2025-01-05 14:45:17] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:158
+[2025-01-05 14:46:00] Error: [2] include(topbar.php): Failed to open stream: No such file or directory - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\bulliten.php:12
+[2025-01-05 14:46:00] Error: [2] include(): Failed opening 'topbar.php' for inclusion (include_path='C:\xampp\php\PEAR') - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\bulliten.php:12
+[2025-01-05 14:46:00] Error: [2] include(sidebar.php): Failed to open stream: No such file or directory - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\bulliten.php:18
+[2025-01-05 14:46:00] Error: [2] include(): Failed opening 'sidebar.php' for inclusion (include_path='C:\xampp\php\PEAR') - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\bulliten.php:18
+[2025-01-05 14:54:32] Error: [2] include(topbar.php): Failed to open stream: No such file or directory - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\bulliten.php:12
+[2025-01-05 14:54:32] Error: [2] include(): Failed opening 'topbar.php' for inclusion (include_path='C:\xampp\php\PEAR') - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\bulliten.php:12
+[2025-01-05 14:54:32] Error: [2] include(sidebar.php): Failed to open stream: No such file or directory - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\bulliten.php:18
+[2025-01-05 14:54:32] Error: [2] include(): Failed opening 'sidebar.php' for inclusion (include_path='C:\xampp\php\PEAR') - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\bulliten.php:18
+[2025-01-05 14:57:54] Error: [2] include(topbar.php): Failed to open stream: No such file or directory - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\bulliten.php:12
+[2025-01-05 14:57:54] Error: [2] include(): Failed opening 'topbar.php' for inclusion (include_path='C:\xampp\php\PEAR') - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\bulliten.php:12
+[2025-01-05 14:57:54] Error: [2] include(sidebar.php): Failed to open stream: No such file or directory - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\bulliten.php:18
+[2025-01-05 14:57:54] Error: [2] include(): Failed opening 'sidebar.php' for inclusion (include_path='C:\xampp\php\PEAR') - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\bulliten.php:18
+[2025-01-05 15:06:50] Error: [2] include(topbar.php): Failed to open stream: No such file or directory - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\bulliten.php:12
+[2025-01-05 15:06:50] Error: [2] include(): Failed opening 'topbar.php' for inclusion (include_path='C:\xampp\php\PEAR') - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\bulliten.php:12
+[2025-01-05 15:06:50] Error: [2] include(sidebar.php): Failed to open stream: No such file or directory - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\bulliten.php:18
+[2025-01-05 15:06:50] Error: [2] include(): Failed opening 'sidebar.php' for inclusion (include_path='C:\xampp\php\PEAR') - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\bulliten.php:18
+[2025-01-05 15:07:14] Error: [2] include(topbar.php): Failed to open stream: No such file or directory - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\bulliten.php:12
+[2025-01-05 15:07:14] Error: [2] include(): Failed opening 'topbar.php' for inclusion (include_path='C:\xampp\php\PEAR') - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\bulliten.php:12
+[2025-01-05 15:07:14] Error: [2] include(sidebar.php): Failed to open stream: No such file or directory - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\bulliten.php:18
+[2025-01-05 15:07:14] Error: [2] include(): Failed opening 'sidebar.php' for inclusion (include_path='C:\xampp\php\PEAR') - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\bulliten.php:18
+[2025-01-05 15:07:15] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:39
+[2025-01-05 15:07:15] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:158
+[2025-01-05 15:23:49] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:39
+[2025-01-05 15:23:49] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:158
+[2025-01-05 15:24:57] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:39
+[2025-01-05 15:24:57] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:158
+[2025-01-05 15:25:08] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:39
+[2025-01-05 15:25:08] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:158
+[2025-01-05 15:25:16] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:39
+[2025-01-05 15:25:17] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:158
+[2025-01-05 15:25:25] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:39
+[2025-01-05 15:25:25] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:158
+[2025-01-05 15:25:36] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:39
+[2025-01-05 15:25:36] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:158
+[2025-01-05 15:29:49] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:39
+[2025-01-05 15:29:49] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:158
+[2025-01-05 15:32:32] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:39
+[2025-01-05 15:32:32] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:158
+[2025-01-05 15:32:51] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:39
+[2025-01-05 15:32:51] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:158
+[2025-01-05 15:33:00] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:39
+[2025-01-05 15:33:00] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:158
+[2025-01-05 15:33:03] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:39
+[2025-01-05 15:33:03] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:158
+[2025-01-05 15:33:21] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:39
+[2025-01-05 15:33:21] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:158
+[2025-01-05 15:34:02] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:39
+[2025-01-05 15:34:02] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:158
+[2025-01-05 15:34:06] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:39
+[2025-01-05 15:34:06] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:158
+[2025-01-05 15:34:36] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:39
+[2025-01-05 15:34:36] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:158
+[2025-01-05 15:34:52] Error: [2] Undefined array key "first_row" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:49
+[2025-01-05 15:34:52] Error: [2] Trying to access array offset on value of type null - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:52
+[2025-01-05 15:34:52] Error: [2] Trying to access array offset on value of type null - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:53
+[2025-01-05 15:34:52] Error: [2] Trying to access array offset on value of type null - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:54
+[2025-01-05 15:34:52] Error: [2] Trying to access array offset on value of type null - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:55
+[2025-01-05 16:20:45] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:39
+[2025-01-05 16:20:45] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:158
+[2025-01-05 16:25:43] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:39
+[2025-01-05 16:25:43] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:158
+[2025-01-05 16:25:57] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2025-01-05 16:25:57] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2025-01-05 16:25:57] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2025-01-05 16:25:57] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2025-01-05 16:25:57] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2025-01-05 16:25:57] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2025-01-05 16:25:57] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2025-01-05 16:25:57] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2025-01-05 16:25:57] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2025-01-05 16:25:57] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2025-01-05 16:25:57] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2025-01-05 16:25:57] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2025-01-05 16:25:57] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2025-01-05 16:25:57] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2025-01-05 16:25:57] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2025-01-05 16:25:57] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2025-01-05 16:25:57] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2025-01-05 16:25:57] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2025-01-05 16:25:57] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2025-01-05 16:25:57] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2025-01-05 16:25:57] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2025-01-05 16:25:57] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2025-01-05 16:25:57] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2025-01-05 16:25:57] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2025-01-05 16:25:57] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2025-01-05 16:25:57] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2025-01-05 16:25:57] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2025-01-05 16:25:57] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2025-01-05 16:25:57] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2025-01-05 16:25:57] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2025-01-05 16:25:57] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2025-01-05 16:25:57] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2025-01-05 16:25:57] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2025-01-05 16:25:57] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2025-01-05 16:25:57] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2025-01-05 16:25:57] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2025-01-05 16:25:57] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2025-01-05 16:25:57] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2025-01-05 16:25:57] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2025-01-05 16:25:57] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2025-01-05 16:25:57] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2025-01-05 16:25:57] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2025-01-05 16:25:57] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2025-01-05 16:25:57] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2025-01-05 16:25:57] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2025-01-05 16:25:57] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2025-01-05 16:27:20] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:39
+[2025-01-05 16:27:20] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:158
+[2025-01-05 16:28:46] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:39
+[2025-01-05 16:28:46] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:158

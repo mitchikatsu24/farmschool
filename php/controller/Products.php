@@ -40,15 +40,17 @@
         }
 
         function update(){
-            if(isset($_FILES['Image'])){
+            if(isset($_FILES['Image']) && $_FILES['Image']['error'] !=4){
                 $data = post_data();
                 $upload = upload_file("Image", auto_rename);
                 $data['Image'] = $upload['filename'];
                 $id['id'] = get('id');
-                db_update('tbl_products',$data,$id);
+                $result = db_update('tbl_products',$data,$id);
+                display($_FILES);
             }else{
                 $data = post_data();
                 $id['id'] = get('id');
+                //display($data);
                 db_update('tbl_products',$data,$id);
             }
             redirect('products/prodlist');
@@ -98,6 +100,16 @@
             //display($result);
             back_to_previous_page();
 
+        }
+
+        function delete_pos(){
+            $pos_id = get("pos_id");
+            $delete['pos_id']=$pos_id;        
+            $result = db_delete('tbl_pos',$delete);
+            set_flash_data("delete_success","deleted succesfully");
+            back_to_previous_page();
+            //display($result);
+            
         }
 
         

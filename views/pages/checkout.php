@@ -1,6 +1,9 @@
 
 <?php
-$data = db_select('tbl_products')['data'];
+$data = db_select('tbl_products')['data']
+?>
+<?php
+$pos_data = db_set_query("select p.pos_id,p.product_id,p.datetime,p.qty,p.status,t.product_name ,t.price,t.pricing,t.Image FROM tbl_pos p,tbl_products t WHERE p.product_id = t.id AND p.status = 0;")["data"];
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -12,6 +15,10 @@ $data = db_select('tbl_products')['data'];
 <meta name="author" content="Dreamguys - Bootstrap Admin Template">
 <meta name="robots" content="noindex, nofollow">
 <title>Dreams Pos admin template</title>
+<link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
 
 <link rel="shortcut icon" type="image/x-icon" href="<?=assets?>/img/favicon.jpg">
 
@@ -45,69 +52,34 @@ $data = db_select('tbl_products')['data'];
 <div class="col-lg-8 col-sm-12 tabs_wrapper">
 <div class="page-header ">
 <div class="page-title">
-<a href="/products/prodlist" class="btn btn-adds">back to page</a>
+<a href="/products/prodlist" class="btn btn-adds" style="display:flex;align-items:center;justify-content:center;padding:4px 2px;"><i class="ri-arrow-left-s-line" style="font-size:25px;"></i>back to page</a>
+
 <h6>Manage your purchases</h6>
 </div>
 </div>
 <ul class=" tabs owl-carousel owl-theme owl-product  border-0 ">
-<li class="active" id="fruits">
-<div class="product-details ">
-<img src="<?=assets?>/img/product/product62.png" alt="img">
-<h6>Fruits</h6>
-</div>
-</li>
 <li id="headphone">
 <div class="product-details ">
 <img src="<?=assets?>/img/product/product63.png" alt="img">
 <h6>Headphones</h6>
 </div>
 </li>
-<li id="Accessories">
-<div class="product-details">
-<img src="<?=assets?>/img/product/product64.png" alt="img">
-<h6>Accessories</h6>
-</div>
-</li>
-<li id="Shoes">
-<a class="product-details">
-<img src="<?=assets?>/img/product/product65.png" alt="img">
-<h6>Shoes</h6>
-</a>
-</li>
-<li id="computer">
-<a class="product-details">
-<img src="<?=assets?>/img/product/product66.png" alt="img">
-<h6>Computer</h6>
-</a>
-</li>
-<li id="Snacks">
-<a class="product-details">
-<img src="<?=assets?>/img/product/product67.png" alt="img">
-<h6>Snacks</h6>
-</a>
-</li>
-<li id="watch">
-<a class="product-details">
-<img src="<?=assets?>/img/product/product68.png" alt="img">
-<h6>Watches</h6>
-</a>
-</li>
-<li id="cycle">
-<a class="product-details">
-<img src="<?=assets?>/img/product/product61.png" alt="img">
-<h6>Cycles</h6>
-</a>
-</li>
-<li id="fruits1">
+<li class="active" id="fruits">
 <div class="product-details ">
 <img src="<?=assets?>/img/product/product62.png" alt="img">
 <h6>Fruits</h6>
 </div>
 </li>
-<li id="headphone1">
+<li id="Accessories">
+<div class="product-details">
+<img src="<?=assets?>/img/product/product64.png" alt="img">
+<h6>Animal</h6>
+</div>
+</li>
+<li id="fruits1">
 <div class="product-details ">
-<img src="<?=assets?>/img/product/product63.png" alt="img">
-<h6>Headphones</h6>
+<img src="<?=assets?>/img/product/vegetable.png" alt="img">
+<h6>vegetables</h6>
 </div>
 </li>
 </ul>
@@ -125,6 +97,11 @@ $data = db_select('tbl_products')['data'];
       $qty = $column['Quantity'];
       $description = $column['Description'];
       $pict = $column["Image"];
+
+      $prod = db_set_query("select sum(qty) as 'pqty' from tbl_pos where product_id = $id")['single'];
+      $pqty = $prod['pqty'];
+      $qty_left = $qty - $pqty;
+
       
         ?>
 
@@ -136,16 +113,16 @@ $data = db_select('tbl_products')['data'];
 <?php else: ?>
     <img src="<?=uploads($pict)?>" alt="img">
 <?php endif; ?>
-<h6>Qty:<?=$qty?></h6>
+<h6>Qty:<?=$qty_left?></h6>
 <div class="check-product">
 <i class="fa fa-check"></i>
 </div>
 </div>
 <div class="productsetcontent">
-<h5>Fruits</h5>
+<h5><?=$category?></h5>
 <h4><?=$prod_name?></h4>
 <h6><?=$price." ".$pricing?></h6>
-<a href="/products/addtocart?pos_id=<?=$id?>"><button style ="width:120px;" class ="btn btn-adds">Add to cart</button></a>
+<a href="/products/addtocart?pos_id=<?=$id?>"><button style ="width:130px;font-size:13px;font-weight:800;padding:5px 2px;display:flex;align-items:center;margin:auto;justify-content:center; " class ="btn btn-adds"><i class="ri-add-box-fill" style ="font-size:23px;"></i>Add to cart</button></a>
 </div>
 </div>
 </div>
@@ -211,38 +188,6 @@ $data = db_select('tbl_products')['data'];
 </div>
 <div class="tab_content" data-tab="Accessories">
 <div class="row">
-<div class="col-lg-3 col-sm-6 d-flex ">
-<div class="productset flex-fill">
-<div class="productsetimg">
-<img src="<?=assets?>/img/product/product32.jpg" alt="img">
-<h6>Qty: 1.00</h6>
-<div class="check-product">
-<i class="fa fa-check"></i>
-</div>
-</div>
-<div class="productsetcontent">
-<h5>Accessories</h5>
-<h4>Sunglasses</h4>
-<h6>15.00</h6>
-</div>
-</div>
-</div>
-<div class="col-lg-3 col-sm-6 d-flex ">
-<div class="productset flex-fill">
-<div class="productsetimg">
-<img src="<?=assets?>/img/product/product46.jpg" alt="img">
-<h6>Qty: 1.00</h6>
-<div class="check-product">
-<i class="fa fa-check"></i>
-</div>
-</div>
-<div class="productsetcontent">
-<h5>Accessories</h5>
-<h4>Pendrive</h4>
-<h6>150.00</h6>
-</div>
-</div>
-</div>
 <div class="col-lg-3 col-sm-6 d-flex ">
 <div class="productset flex-fill">
 <div class="productsetimg">
@@ -443,54 +388,6 @@ $data = db_select('tbl_products')['data'];
 <div class="col-lg-3 col-sm-6 d-flex ">
 <div class="productset flex-fill">
 <div class="productsetimg">
-<img src="<?=assets?>/img/product/product29.jpg" alt="img">
-<h6>Qty: 5.00</h6>
-<div class="check-product">
-<i class="fa fa-check"></i>
-</div>
-</div>
-<div class="productsetcontent">
-<h5>Fruits</h5>
-<h4>Orange</h4>
-<h6>150.00</h6>
-</div>
-</div>
-</div>
-<div class="col-lg-3 col-sm-6 d-flex ">
-<div class="productset flex-fill">
-<div class="productsetimg">
-<img src="<?=assets?>/img/product/product31.jpg" alt="img">
-<h6>Qty: 1.00</h6>
-<div class="check-product">
-<i class="fa fa-check"></i>
-</div>
-</div>
-<div class="productsetcontent">
-<h5>Fruits</h5>
-<h4>Strawberry</h4>
-<h6>15.00</h6>
-</div>
-</div>
-</div>
-<div class="col-lg-3 col-sm-6 d-flex ">
-<div class="productset flex-fill">
-<div class="productsetimg">
-<img src="<?=assets?>/img/product/product35.jpg" alt="img">
-<h6>Qty: 5.00</h6>
-<div class="check-product">
-<i class="fa fa-check"></i>
-</div>
-</div>
-<div class="productsetcontent">
-<h5>Fruits</h5>
-<h4>Banana</h4>
-<h6>150.00</h6>
-</div>
-</div>
-</div>
-<div class="col-lg-3 col-sm-6 d-flex ">
-<div class="productset flex-fill">
-<div class="productsetimg">
 <img src="<?=assets?>/img/product/product37.jpg" alt="img">
 <h6>Qty: 5.00</h6>
 <div class="check-product">
@@ -633,37 +530,64 @@ $data = db_select('tbl_products')['data'];
 <div class="product-table">
 <ul class="product-lists">
 <li>
-<div class="productimg">
+<?php $grand_total = 0; ?>
+<?php while($column=fetch_array($pos_data)):  ?>
+    <?php
+      $id = $column['pos_id']; 
+      $prod_id = $column['Product_id'];
+      $date = $column['datetime'];
+      $stat = $column['satatus'];
+      $product =$column['product_name'];
+      $price =$column['price'];
+      $img =$column['Image'];
+      $qty =$column['qty'];
+      $grand_total += $price*$qty;
+
+    
+      
+        ?>
+        <div class="productimg">
 <div class="productimgs">
-<img src="<?=assets?>/img/product/product30.jpg" alt="img">
+  <?php if($img==null): ?>
+<img src="<?=assets?>/img/product/picture.png" alt="img">
+<?php else: ?>
+    <img src="<?=uploads($img)?>" alt="img">
+<?php endif; ?>
+
 </div>
 
+
 <div class="productcontet">
-<h4>Pineapple
+<h4><?=$product?>
 <a href="javascript:void(0);" class="ms-2" data-bs-toggle="modal" data-bs-target="#edit"><img src="<?=assets?>/img/icons/edit-5.svg" alt="img"></a>
 </h4>
 <div class="productlinkset">
-<h5>PT001</h5>
+<h5><?=$prod_id?></h5>
 </div>
 <div class="increment-decrement">
 <div class="input-groups">
-<input type="button" value="-" class="button-minus dec button">
-<input type="text" name="child" value="0" class="quantity-field">
-<input type="button" value="+" class="button-plus inc button ">
+<a href="/sales/updateQty?type=1&qty=<?=$qty?>&id=<?=$id?>"><input type="button" value="-" class="button-minus dec button"></a>
+<input type="text" name="child" class="quantity-field" value="<?=$qty?>">
+<a href="/sales/updateQty?type=2&qty=<?=$qty?>&id=<?=$id?>"><input type="button" value="+" class="button-plus inc button "></a>
 </div>
 </div>
 </div>
 </div>
 </li>
-<li>3000.00	</li>
-<li><a class="confirm-text" href="javascript:void(0);"><img src="<?=assets?>/img/icons/delete-2.svg" alt="img"></a></li>
+<li><?=$price." ".$pricing?>	</li>
+<li><a onclick ="return confirm('are you sure you want to delete')" href="/products/delete_pos?pos_id=<?=$id?>"><img src="<?=assets?>/img/icons/delete-2.svg" alt="img"></a></li>
 </ul>
 <ul class="product-lists">
 <li>
 <div class="productimg">
+<?php endwhile; ?>
+
+<?php
 
 
 
+
+?>
 
 </div>
 </div>
@@ -674,15 +598,15 @@ $data = db_select('tbl_products')['data'];
 <ul>
 <li>
 <h5>Subtotal </h5>
-<h6>55.00$</h6>
+<h6><?=$grand_total ?></h6>
 </li>
 <li>
 <h5>Tax </h5>
-<h6>5.00$</h6>
+<h6><?=$tax?></h6>
 </li>
 <li class="total-value">
 <h5>Total </h5>
-<h6>60.00$</h6>
+<h6><?=$grand_total?></h6>
 </li>
 </ul>
 </div>
@@ -708,10 +632,12 @@ Scan
 </li>
 </ul>
 </div>
+<a href="#" data-bs-toggle="modal" data-bs-target="#create">
 <div class="btn-totallabel">
-<h5>Checkout</h5>
-<h6>60.00$</h6>
+<h5 style="display:flex;align-items:center;justify-content:left;"><i class="ri-bill-line" style="font-size:30px;"></i>payment</h5>
+<h6><?=$grand_total?></h6>
 </div>
+</a>
 <div class="btn-pos">
 <ul>
 <li>
@@ -893,9 +819,12 @@ Scan
 </div>
 </div>
 </div>
+
+<!-- payment modal -->
 <div class="modal fade" id="create" tabindex="-1" aria-labelledby="create" aria-hidden="true">
 <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
 <div class="modal-content">
+<form action="/sales/addTransaction" method="post" id="addTrans">
 <div class="modal-header">
 <h5 class="modal-title">Create</h5>
 <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
@@ -906,49 +835,58 @@ Scan
 <div class="row">
 <div class="col-lg-6 col-sm-12 col-12">
 <div class="form-group">
-<label>Customer Name</label>
-<input type="text">
+<label>grand total</label>
+<label for="" class="form-control" id="grand_total"><?=$grand_total?></label>
 </div>
 </div>
 <div class="col-lg-6 col-sm-12 col-12">
 <div class="form-group">
-<label>Email</label>
-<input type="text">
+<label>amount tendered <a href="#" style="text-decoration:underline;" onclick="getChange()">calculate</a></label>
+<input id="tendered" name="amount_tendered" type="text">
+</div>
+</div>
+<div class="col-lg-6 col-sm-12 col-12">
+<div class="form-group">
+<label>change</label>
+<label for="" class="form-control" id="change">0</label>
 </div>
 </div>
 <div class="col-lg-6 col-sm-12 col-12">
 <div class="form-group">
 <label>Phone</label>
+<input name="contact" type="text">
+</div>
+</div>
+<div class="col-lg-6 col-sm-12 col-12">
+<div class="form-group">
+<label>Contact number</label>
 <input type="text">
 </div>
 </div>
 <div class="col-lg-6 col-sm-12 col-12">
 <div class="form-group">
-<label>Country</label>
-<input type="text">
-</div>
-</div>
-<div class="col-lg-6 col-sm-12 col-12">
-<div class="form-group">
-<label>City</label>
-<input type="text">
+<label>Customer name</label>
+<input name="customer_name" type="text">
 </div>
 </div>
 <div class="col-lg-6 col-sm-12 col-12">
 <div class="form-group">
 <label>Address</label>
-<input type="text">
+<input name="address" type="text">
 </div>
 </div>
 </div>
 <div class="col-lg-12">
-<a class="btn btn-submit me-2">Submit</a>
+<button class="btn btn-submit me-2">Submit</button>
 <a class="btn btn-cancel" data-bs-dismiss="modal">Cancel</a>
 </div>
 </div>
+</form>
 </div>
 </div>
 </div>
+<!-- -->
+
 <div class="modal fade" id="delete" tabindex="-1" aria-hidden="true">
 <div class="modal-dialog modal-dialog-centered" role="document">
 <div class="modal-content">
@@ -1490,5 +1428,12 @@ Scan
 <script src="<?=assets?>/plugins/sweetalert/sweetalerts.min.js"></script>
 
 <script src="<?=assets?>/js/script.js"></script>
+<script src="<?=src?>/checkout.js"></script>
 </body>
 </html>
+
+<?php if(flash_data("delete_success")): ?>
+  <script>
+    alert("Product on cart has been deleted");
+  </script>
+<?php endif; ?>

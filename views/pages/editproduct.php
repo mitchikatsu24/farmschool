@@ -1,6 +1,7 @@
 <?php 
-$column = db_select('tbl_products')['single'];
-$id = $column['id']; 
+$id = get("id");
+$column = db_select('tbl_products','*', "where id=$id")['single'];
+
 $prod_name = $column['Product_name'];
 $category = $column['Category'];
 $price = $column['Price'];
@@ -92,7 +93,7 @@ $description = $column['Description'];
 <label>pricing</label>
 <select name ="pricing"  class="select">
 <option>per kilo</option>
-<option>pieces</option>
+<option>per pieces</option>
 <option>per tie</option>
 
 </select>

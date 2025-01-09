@@ -156,6 +156,8 @@ $data = db_select('tbl_products')['data'];
 <th>price</th>
 <th>pricing</th>
 <th>Quantity</th>
+<th>sold</th>
+<th>stock left</th>
 <th>Description</th>
 <th>Action</th>
 </tr>
@@ -172,6 +174,9 @@ $data = db_select('tbl_products')['data'];
       $qty = $column['Quantity'];
       $description = $column['Description'];
       $pict = $column["Image"];
+      $prod = db_set_query("select sum(qty) as 'pqty' from tbl_pos where product_id = $id")['single'];
+      $pqty = $prod['pqty'];
+      $qty_left = $qty - $pqty;
       
         ?>
 <tr>
@@ -197,6 +202,8 @@ $data = db_select('tbl_products')['data'];
 <td><?=$price?></td>
 <td><?=$pricing?></td>
 <td><?=$qty?></td>
+<td><?=$pqty?></td>
+<td><?=$qty_left?></td>
 <td><?=$description?></td>
 <td>
 

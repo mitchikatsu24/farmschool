@@ -2,99 +2,144 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-<meta name="description" content="POS - Bootstrap Admin Template">
-<meta name="keywords" content="admin, estimates, bootstrap, business, corporate, creative, invoice, html5, responsive, Projects">
-<meta name="author" content="Dreamguys - Bootstrap Admin Template">
-<meta name="robots" content="noindex, nofollow">
-<title>Login - Pos admin template</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login - Modern Design</title>
 
+<!-- Favicon -->
 <link rel="shortcut icon" type="image/x-icon" href="<?=assets?>/img/favicon.jpg">
 
+<!-- Stylesheets -->
 <link rel="stylesheet" href="<?=assets?>/css/bootstrap.min.css">
-
 <link rel="stylesheet" href="<?=assets?>/plugins/fontawesome/css/fontawesome.min.css">
 <link rel="stylesheet" href="<?=assets?>/plugins/fontawesome/css/all.min.css">
 
-<link rel="stylesheet" href="<?=assets?>/css/style.css">
+<!-- Custom Styles -->
+<style>
+    body {
+        background: url('<?=assets?>/img/background.jpg') no-repeat center center/cover;
+        height: 100vh;
+        margin: 0;
+        font-family: 'Arial', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .login-wrapper {
+        width: 100%;
+        max-width: 400px;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+    }
+
+    .login-header {
+        text-align: center;
+        padding: 20px;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .login-header img {
+        width: 60px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+
+    .login-header h3 {
+        margin: 0;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .login-header h4 {
+        margin-top: 5px;
+        color: #666;
+        font-size: 0.9rem;
+    }
+
+    .login-content {
+        padding: 20px;
+    }
+
+    .form-group label {
+        font-weight: 600;
+        color: #333;
+    }
+
+    .form-group input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        margin-top: 5px;
+        box-sizing: border-box;
+    }
+
+    .form-group input:focus {
+        border-color: #007bff;
+        outline: none;
+    }
+
+    .btn-login {
+        width: 100%;
+        background: #28a745;
+        color: #fff;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+        cursor: pointer;
+        margin-top: 15px;
+    }
+
+    .btn-login:hover {
+        background: #218838;
+    }
+
+    .form-footer {
+        text-align: center;
+        margin-top: 15px;
+        font-size: 0.9rem;
+    }
+
+    .form-footer a {
+        color: #007bff;
+        text-decoration: none;
+    }
+
+    .form-footer a:hover {
+        text-decoration: underline;
+    }
+</style>
 </head>
-<body class="account-page">
+<body>
 
-<div class="main-wrapper">
-<div class="account-content">
 <div class="login-wrapper">
-<div class="login-content">
-<div class="login-userset">
-<div class="login-logo">
-<img src="<?=assets?>/img/icons/farm.jpg" alt="img">
+    <div class="login-header">
+        <img src="<?=assets?>/img/icons/farm.jpg" alt="Logo">
+        <h3>Sign In</h3>
+        <h4>Please login to your account</h4>
+    </div>
+    <div class="login-content">
+        <form action="/accounts/acclogin" method="post">
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input id="email" name="username" type="text" placeholder="Enter your email address">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input id="password" name="password" type="password" placeholder="Enter your password">
+            </div>
+            <button type="submit" class="btn-login">Sign In</button>
+        </form>
+        <div class="form-footer">
+            <p><a href="forgetpassword.html">Forgot Password?</a></p>
+            <p>Don’t have an account? <a href="/accounts/signup">Sign Up</a></p>
+        </div>
+    </div>
+</div>
 
-</div>
-<div class="login-userheading">
-<h3>Sign In</h3>
-<h4>Please login to your account</h4>
-</div>
-<form action="/accounts/acclogin" method="post">
-<div class="form-login">
-<label>Email</label>
-<div class="form-addons">
-<input name = "username" type="text" placeholder="Enter your email address">
-<img src="<?=assets?>/img/icons/mail.svg" alt="img">
-</div>
-</div>
-<div class="form-login">
-<label>Password</label>
-<div class="pass-group">
-<input name = "password" type="password" class="pass-input" placeholder="Enter your password">
-<span class="fas toggle-password fa-eye-slash"></span>
-</div>
-</div>
-<div class="form-login">
-<div class="alreadyuser">
-<h4><a href="forgetpassword.html" class="hover-a">Forgot Password?</a></h4>
-</div>
-</div>
-<div class="form-login">
-<button class="btn btn-login" type='submit'>Sign In</button>
-</div>
-<div class="signinform text-center">
-<h4>Don’t have an account? <a href="/accounts/signup" class="hover-a">Sign Up</a></h4>
-</div>
-<div class="form-setlogin">
-<h4>Or sign up with</h4>
-</div>
-<div class="form-sociallink">
-<ul>
-<li>
-<a href="javascript:void(0);">
-<img src="<?=assets?>/img/icons/google.png" class="me-2" alt="google">
-Sign Up using Google
-</a>
-</li>
-<li>
-<a href="javascript:void(0);">
-<img src="<?=assets?>/img/icons/facebook.png" class="me-2" alt="google">
-Sign Up using Facebook
-</a>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="login-img">
-<img src="<?=assets?>/img/forlogin.jpg" alt="img">
-</div>
-</div>
-</div>
-</div>
-</form>
-
-
-<script src="<?=assets?>/js/jquery-3.6.0.min.js"></script>
-
-<script src="<?=assets?>/js/feather.min.js"></script>
-
-<script src="<?=assets?>/js/bootstrap.bundle.min.js"></script>
-
-<script src="<?=assets?>/js/script.js"></script>
 </body>
 </html>

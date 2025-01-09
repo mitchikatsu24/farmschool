@@ -1,0 +1,45 @@
+[2024-11-29 17:31:44] Error: [2] Undefined variable $tax - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\checkout.php:600
+[2024-11-29 17:31:55] Error: [2] Undefined array key "Product_id" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\checkout.php:532
+[2024-11-29 17:31:55] Error: [2] Undefined array key "satatus" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\checkout.php:534
+[2024-11-29 17:31:55] Error: [2] Undefined variable $tax - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\checkout.php:600
+[2024-11-29 17:32:02] Error: [2] Undefined array key "Product_id" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\checkout.php:532
+[2024-11-29 17:32:02] Error: [2] Undefined array key "satatus" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\checkout.php:534
+[2024-11-29 17:32:02] Error: [2] Undefined variable $tax - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\checkout.php:600
+[2024-11-29 17:52:49] Error: [2] Undefined array key "Product_id" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\checkout.php:532
+[2024-11-29 17:52:50] Error: [2] Undefined array key "satatus" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\checkout.php:534
+[2024-11-29 17:52:50] Error: [2] Undefined variable $tax - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\checkout.php:600
+[2024-11-29 17:56:26] Error: [2] require(views/includes/saleslist.php): Failed to open stream: No such file or directory - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\app\system\Yros.php:118
+[2024-11-29 18:39:01] Error: [2] Undefined array key "Product_id" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\checkout.php:532
+[2024-11-29 18:39:01] Error: [2] Undefined array key "satatus" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\checkout.php:534
+[2024-11-29 18:39:01] Error: [2] Undefined variable $tax - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\checkout.php:600
+[2024-11-29 18:39:11] Error: [2] Undefined variable $tax - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\checkout.php:600
+[2024-11-29 18:39:23] Error: [2] Undefined array key "Product_id" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\checkout.php:532
+[2024-11-29 18:39:23] Error: [2] Undefined array key "satatus" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\checkout.php:534
+[2024-11-29 18:39:23] Error: [2] Undefined variable $tax - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\checkout.php:600
+[2024-11-29 18:39:28] Error: [2] Undefined array key "Product_id" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\checkout.php:532
+[2024-11-29 18:39:28] Error: [2] Undefined array key "satatus" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\checkout.php:534
+[2024-11-29 18:39:28] Error: [2] Undefined array key "Product_id" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\checkout.php:532
+[2024-11-29 18:39:28] Error: [2] Undefined array key "satatus" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\checkout.php:534
+[2024-11-29 18:39:28] Error: [2] Undefined variable $tax - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\checkout.php:600
+[2024-11-29 18:39:34] Error: [2] Undefined array key "Product_id" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\checkout.php:532
+[2024-11-29 18:39:34] Error: [2] Undefined array key "satatus" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\checkout.php:534
+[2024-11-29 18:39:34] Error: [2] Undefined array key "Product_id" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\checkout.php:532
+[2024-11-29 18:39:34] Error: [2] Undefined array key "satatus" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\checkout.php:534
+[2024-11-29 18:39:34] Error: [2] Undefined variable $tax - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\checkout.php:600
+[2024-11-29 18:39:48] Error: [2] Undefined array key "Product_id" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\checkout.php:532
+[2024-11-29 18:39:48] Error: [2] Undefined array key "satatus" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\checkout.php:534
+[2024-11-29 18:39:48] Error: [2] Undefined array key "Product_id" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\checkout.php:532
+[2024-11-29 18:39:48] Error: [2] Undefined array key "satatus" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\checkout.php:534
+[2024-11-29 18:39:48] Error: [2] Undefined variable $tax - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\checkout.php:600
+[2024-11-29 18:39:55] Error: [2] Undefined array key "Product_id" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\checkout.php:532
+[2024-11-29 18:39:55] Error: [2] Undefined array key "satatus" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\checkout.php:534
+[2024-11-29 18:39:55] Error: [2] Undefined variable $tax - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\checkout.php:600
+[2024-11-29 18:40:11] Error: [2] Undefined variable $tax - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\checkout.php:600
+[2024-11-29 18:40:27] Error: [2] Undefined variable $tax - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\checkout.php:600
+[2024-11-29 18:40:45] Error: [2] Undefined variable $tax - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\checkout.php:600
+[2024-11-29 18:40:51] Error: [2] Undefined array key "Product_id" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\checkout.php:532
+[2024-11-29 18:40:51] Error: [2] Undefined array key "satatus" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\checkout.php:534
+[2024-11-29 18:40:51] Error: [2] Undefined variable $tax - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\checkout.php:600
+[2024-11-29 18:41:19] Error: [2] Undefined array key "Product_id" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\checkout.php:532
+[2024-11-29 18:41:19] Error: [2] Undefined array key "satatus" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\checkout.php:534
+[2024-11-29 18:41:19] Error: [2] Undefined variable $tax - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\checkout.php:600

@@ -1,0 +1,216 @@
+[2024-12-28 06:08:34] Error: [2] Undefined array key "id" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\inventory_list.php:164
+[2024-12-28 06:12:18] Error: [2] Undefined array key "id" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\inventory_list.php:164
+[2024-12-28 06:13:37] Error: [2] Undefined array key "id" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\inventory_list.php:164
+[2024-12-28 06:17:08] Error: [2] Undefined array key "id" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:164
+[2024-12-28 06:19:19] Error: [2] Undefined array key "id" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\inventory_list.php:164
+[2024-12-28 06:19:26] Error: [2] Undefined array key "id" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\inventory_list.php:164
+[2024-12-28 06:20:05] Error: [2] Undefined array key "id" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\inventory_list.php:164
+[2024-12-28 06:20:12] Error: [2] Undefined array key "id" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\inventory_list.php:164
+[2024-12-28 06:20:37] Error: [2] Undefined array key "id" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\inventory_list.php:164
+[2024-12-28 06:30:12] Error: [2] Undefined array key "first_row" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:49
+[2024-12-28 06:30:12] Error: [2] Trying to access array offset on value of type null - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:52
+[2024-12-28 06:30:12] Error: [2] Trying to access array offset on value of type null - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:53
+[2024-12-28 06:30:12] Error: [2] Trying to access array offset on value of type null - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:54
+[2024-12-28 06:30:12] Error: [2] Trying to access array offset on value of type null - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:55
+[2024-12-28 06:30:12] Error: [2] Trying to access array offset on value of type null - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:56
+[2024-12-28 06:30:17] Error: [2] Undefined array key "first_row" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:49
+[2024-12-28 06:30:17] Error: [2] Trying to access array offset on value of type null - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:52
+[2024-12-28 06:30:17] Error: [2] Trying to access array offset on value of type null - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:53
+[2024-12-28 06:30:17] Error: [2] Trying to access array offset on value of type null - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:54
+[2024-12-28 06:30:17] Error: [2] Trying to access array offset on value of type null - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:55
+[2024-12-28 06:30:17] Error: [2] Trying to access array offset on value of type null - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:56
+[2024-12-28 06:32:36] Error: [2] Undefined array key "first_row" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:49
+[2024-12-28 06:32:36] Error: [2] Trying to access array offset on value of type null - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:52
+[2024-12-28 06:32:36] Error: [2] Trying to access array offset on value of type null - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:53
+[2024-12-28 06:32:36] Error: [2] Trying to access array offset on value of type null - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:54
+[2024-12-28 06:32:36] Error: [2] Trying to access array offset on value of type null - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:55
+[2024-12-28 06:32:36] Error: [2] Trying to access array offset on value of type null - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:56
+[2024-12-28 06:32:59] Error: [2] Undefined array key "first_row" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:49
+[2024-12-28 06:32:59] Error: [2] Trying to access array offset on value of type null - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:52
+[2024-12-28 06:32:59] Error: [2] Trying to access array offset on value of type null - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:53
+[2024-12-28 06:32:59] Error: [2] Trying to access array offset on value of type null - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:54
+[2024-12-28 06:32:59] Error: [2] Trying to access array offset on value of type null - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:55
+[2024-12-28 06:32:59] Error: [2] Trying to access array offset on value of type null - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:56
+[2024-12-28 06:33:16] Error: [2] Undefined array key "first_row" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:49
+[2024-12-28 06:33:16] Error: [2] Trying to access array offset on value of type null - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:52
+[2024-12-28 06:33:16] Error: [2] Trying to access array offset on value of type null - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:53
+[2024-12-28 06:33:16] Error: [2] Trying to access array offset on value of type null - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:54
+[2024-12-28 06:33:16] Error: [2] Trying to access array offset on value of type null - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:55
+[2024-12-28 06:33:16] Error: [2] Trying to access array offset on value of type null - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:56
+[2024-12-28 06:33:43] Error: [2] Undefined array key "first_row" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:49
+[2024-12-28 06:33:43] Error: [2] Trying to access array offset on value of type null - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:52
+[2024-12-28 06:33:43] Error: [2] Trying to access array offset on value of type null - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:53
+[2024-12-28 06:33:43] Error: [2] Trying to access array offset on value of type null - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:54
+[2024-12-28 06:33:43] Error: [2] Trying to access array offset on value of type null - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:55
+[2024-12-28 06:33:43] Error: [2] Trying to access array offset on value of type null - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:56
+[2024-12-28 06:34:18] Error: [2] Undefined array key "first_row" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:49
+[2024-12-28 06:34:18] Error: [2] Trying to access array offset on value of type null - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:52
+[2024-12-28 06:34:18] Error: [2] Trying to access array offset on value of type null - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:53
+[2024-12-28 06:34:18] Error: [2] Trying to access array offset on value of type null - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:54
+[2024-12-28 06:34:18] Error: [2] Trying to access array offset on value of type null - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:55
+[2024-12-28 06:34:18] Error: [2] Trying to access array offset on value of type null - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:56
+[2024-12-28 06:34:28] Error: [2] Undefined array key "id" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\inventory_list.php:164
+[2024-12-28 06:34:34] Error: [2] Undefined array key "first_row" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:49
+[2024-12-28 06:34:34] Error: [2] Trying to access array offset on value of type null - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:52
+[2024-12-28 06:34:34] Error: [2] Trying to access array offset on value of type null - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:53
+[2024-12-28 06:34:34] Error: [2] Trying to access array offset on value of type null - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:54
+[2024-12-28 06:34:34] Error: [2] Trying to access array offset on value of type null - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:55
+[2024-12-28 06:34:34] Error: [2] Trying to access array offset on value of type null - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:56
+[2024-12-28 06:34:39] Error: [2] Undefined array key "id" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\inventory_list.php:164
+[2024-12-28 06:35:23] Error: [2] Undefined array key "id" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\inventory_list.php:164
+[2024-12-28 06:36:57] Error: [2] Undefined array key "id" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:52
+[2024-12-28 06:38:54] Error: [2] Undefined array key "id" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:52
+[2024-12-28 06:40:29] Error: [2] Undefined array key "id" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:52
+[2024-12-28 06:41:34] Error: [2] Undefined array key "id" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:52
+[2024-12-28 06:42:28] Error: [2] Undefined array key "id" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:52
+[2024-12-28 06:42:44] Error: [2] Undefined array key "id" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:52
+[2024-12-28 06:43:32] Error: [2] Undefined array key "id" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:52
+[2024-12-28 06:44:02] Error: [2] Undefined array key "id" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:52
+[2024-12-28 06:44:31] Error: [2] Undefined array key "id" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:52
+[2024-12-28 06:45:03] Error: [2] Undefined array key "id" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:52
+[2024-12-28 06:45:16] Error: [2] Undefined array key "id" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:52
+[2024-12-28 06:45:39] Error: [2] Undefined array key "id" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:52
+[2024-12-28 06:46:36] Error: [2] Undefined array key "id" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:52
+[2024-12-28 06:46:49] Error: [2] Undefined array key "id" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:52
+[2024-12-28 06:47:03] Error: [2] Undefined array key "id" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:52
+[2024-12-28 06:47:39] Error: [2] Undefined array key "id" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:52
+[2024-12-28 06:48:02] Error: [2] Undefined array key "id" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:52
+[2024-12-28 06:48:24] Error: [2] Undefined array key "id" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:52
+[2024-12-28 06:49:16] Error: [2] Undefined array key "id" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:52
+[2024-12-28 06:49:26] Error: [2] Undefined array key "id" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:52
+[2024-12-28 06:50:09] Error: [2] Undefined array key "id" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:52
+[2024-12-28 06:50:31] Error: [2] Undefined array key "id" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:52
+[2024-12-28 06:53:51] Error: [2] Undefined array key "id" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:52
+[2024-12-28 06:57:17] Error: [2] Undefined array key "id" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\update_inventory.php:52
+[2024-12-28 06:58:39] Error: [8192] PDO::quote(): Passing null to parameter #1 ($string) of type string is deprecated - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\app\system\extras\database.php:220
+[2024-12-28 07:04:17] Error: [8192] PDO::quote(): Passing null to parameter #1 ($string) of type string is deprecated - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\app\system\extras\database.php:220
+[2024-12-28 07:04:23] Error: [8192] PDO::quote(): Passing null to parameter #1 ($string) of type string is deprecated - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\app\system\extras\database.php:220
+[2024-12-28 11:39:42] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:39:42] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:39:42] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:39:42] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:39:42] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:39:42] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:39:42] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:39:42] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:39:42] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:39:42] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:39:42] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:39:42] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:39:42] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:39:42] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:39:42] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:39:42] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:39:42] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:39:42] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:39:42] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:39:42] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:39:42] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:39:42] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:39:42] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:39:42] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:39:42] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:39:42] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:39:42] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:39:42] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:39:42] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:39:42] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:39:42] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:39:42] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:39:42] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:39:42] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:39:42] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:39:42] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:39:42] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:39:42] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:39:42] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:39:42] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:39:42] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:39:42] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:40:05] Error: [2] Undefined array key "Product_id" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\checkout.php:537
+[2024-12-28 11:40:05] Error: [2] Undefined array key "satatus" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\checkout.php:539
+[2024-12-28 11:40:05] Error: [2] Undefined variable $tax - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\checkout.php:605
+[2024-12-28 11:40:30] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:40:30] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:40:30] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:40:30] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:40:30] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:40:30] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:40:30] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:40:30] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:40:30] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:40:30] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:40:30] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:40:30] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:40:30] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:40:30] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:40:30] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:40:30] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:40:30] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:40:30] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:40:30] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:40:30] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:40:30] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:40:30] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:40:30] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:40:30] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:40:30] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:40:30] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:40:30] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:40:30] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:40:30] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:40:30] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:40:30] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:40:30] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:40:30] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:40:30] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:40:30] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:40:30] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:40:30] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:40:30] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:40:30] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:40:30] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:40:30] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:40:30] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:40:56] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:40:56] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:40:56] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:40:56] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:40:56] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:40:56] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:40:56] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:40:56] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:40:56] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:40:56] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:40:56] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:40:56] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:40:56] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:40:56] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:40:56] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:40:56] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:40:56] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:40:56] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:40:56] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:40:56] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:40:56] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:40:56] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:40:56] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:40:56] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:40:56] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:40:56] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:40:56] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:40:56] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:40:56] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:40:56] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:40:56] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:40:56] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:40:56] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:40:56] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:40:56] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:40:56] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:40:56] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:40:56] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:40:56] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:40:56] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
+[2024-12-28 11:40:56] Error: [2] Undefined array key "Description" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:148
+[2024-12-28 11:40:56] Error: [2] Undefined array key "Image" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\saleslist.php:149
