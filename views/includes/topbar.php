@@ -5,7 +5,7 @@
 <img src="<?=assets?>/img/icons/farml.png" alt="">
 </a>
 <a href="index.html" class="logo-small">
-<img src="<?=assets?>/img/icons/farm.jpg" alt="">
+<img src="<?=assets?>/img/icons/farml.png" alt="">
 </a>
 <a id="toggle_btn" href="javascript:void(0);">
 </a>
@@ -61,7 +61,7 @@
 <img alt="" src="<?=assets?>/img/profiles/avatar-02.jpg">
 </span>
 <div class="media-body flex-grow-1">
-<p class="noti-details"><span class="noti-title">John Doe</span> added new task <span class="noti-title">Patient appointment booking</span></p>
+<p class="noti-details"><span class="noti-title">Ryan gwaps</span> added new task <span class="noti-title">Patient appointment booking</span></p>
 <p class="noti-time"><span class="notification-time">4 mins ago</span></p>
 </div>
 </div>
@@ -138,7 +138,7 @@
 <span class="user-img"><img src="<?=assets?>/img/profiles/avator1.jpg" alt="">
 <span class="status online"></span></span>
 <div class="profilesets">
-<h6>John Doe</h6>
+<h6>Ryan gwaps</h6>
 <h5>Admin</h5>
 </div>
 </div>

@@ -1,0 +1,10 @@
+[2025-01-10 13:04:36] Error: [2] Undefined array key "login" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\app\auto\autorun.php:7
+[2025-01-10 13:04:41] Error: [2] Undefined array key "login" - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\app\auto\autorun.php:7
+[2025-01-10 13:04:49] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:39
+[2025-01-10 13:04:49] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:158
+[2025-01-10 13:05:24] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:39
+[2025-01-10 13:05:24] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:158
+[2025-01-10 13:06:28] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:39
+[2025-01-10 13:06:28] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:158
+[2025-01-10 13:08:38] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:39
+[2025-01-10 13:08:38] Error: [2] Array to string conversion - C:\Users\jesma\Desktop\inventory_system\yros-main\inventory_system\views\pages\dashboard.php:158

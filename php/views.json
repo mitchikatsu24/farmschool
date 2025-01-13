@@ -390,5 +390,12 @@
         "function": "bulletindisplay",
         "path": "Bulletin/bulletindisplay",
         "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "pages/messages.php@Accounts/messages": {
+        "view": "pages/messages.php",
+        "controller": "Accounts",
+        "function": "messages",
+        "path": "Accounts/messages",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
     }
 }

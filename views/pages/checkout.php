@@ -67,7 +67,7 @@ $pos_data = db_set_query("select p.pos_id,p.product_id,p.datetime,p.qty,p.status
 <li class="active" id="fruits">
 <div class="product-details ">
 <img src="<?=assets?>/img/product/product62.png" alt="img">
-<h6>Fruits</h6>
+<h6>vegetables</h6>
 </div>
 </li>
 <li id="Accessories">
@@ -514,9 +514,6 @@ $pos_data = db_set_query("select p.pos_id,p.product_id,p.datetime,p.qty,p.status
 </div>
 </div>
 <div class="col-12">
-<div class="text-end">
-<a class="btn btn-scanner-set"><img src="<?=assets?>/img/icons/scanner1.svg" alt="img" class="me-2">Scan bardcode</a>
-</div>
 </div>
 </div>
 </div>
@@ -611,26 +608,6 @@ $pos_data = db_set_query("select p.pos_id,p.product_id,p.datetime,p.qty,p.status
 </ul>
 </div>
 <div class="setvaluecash">
-<ul>
-<li>
-<a href="javascript:void(0);" class="paymentmethod">
-<img src="<?=assets?>/img/icons/cash.svg" alt="img" class="me-2">
-Cash
-</a>
-</li>
-<li>
-<a href="javascript:void(0);" class="paymentmethod">
-<img src="<?=assets?>/img/icons/debitcard.svg" alt="img" class="me-2">
-Debit
-</a>
-</li>
-<li>
-<a href="javascript:void(0);" class="paymentmethod">
-<img src="<?=assets?>/img/icons/scan.svg" alt="img" class="me-2">
-Scan
-</a>
-</li>
-</ul>
 </div>
 <a href="#" data-bs-toggle="modal" data-bs-target="#create">
 <div class="btn-totallabel">

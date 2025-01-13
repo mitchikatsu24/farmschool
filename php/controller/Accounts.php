@@ -45,6 +45,9 @@
             $_SESSION['login'] = 0;
             view_page('login.php');
         }
+        function messages(){
+            view_page('messages.php');
+        }
         
         
 
