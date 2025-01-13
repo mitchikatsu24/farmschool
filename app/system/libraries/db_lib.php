@@ -1,6 +1,7 @@
 <?php
 class Db_lib{
     public $storage = [];
+    public $db_errors = [];
     public function __construct()
 	{
 
@@ -57,7 +58,34 @@ class Db_lib{
             }
         }
         $query= 'SELECT ' . $str . ' FROM ' . $table . ' ' . $conditions;
-        return $this->setQuery($query, $parameters);
+        $ret = $this->setQuery($query, $parameters);
+        return $ret;
+    }
+
+    public function select_all_where(string|array $table, array|string $where, array $param = []){
+        $sql = "";
+        $par = [];
+        if(is_array($table)){
+            $table = $table[0] ? $table[0] : "";
+        }
+        if(is_array($where)){
+            if(array_is_multidimensional($where)){
+                $eex = [];
+                foreach($where as $key=>$value){
+                    $eex[] = $key." = ?";
+                    $par[] = $value;
+                }
+                $imp = implode(" & ", $eex);
+                $param = $par;
+                $sql = "SELECT * from $table where ".$imp;
+            }else{
+                $imp = implode(" & ", $where);
+                $sql = "SELECT * from $table where ".$imp;
+            }
+        }else{
+            $sql = "SELECT * from $table where ".$where;  
+        }
+        return $this->setQuery($sql, $param)['data'];
     }
 
     public function insert($table, $data){
@@ -73,9 +101,12 @@ class Db_lib{
 
         }
         catch (Exception $e) {
-            write_sql_log("Previous query failed: ".$e->getMessage()." @ ".$e->getFile()." line ".$e->getLine());
+            $err = $e->getMessage();
+            $disp = display_error111($err);
+            write_sql_log($disp);
             $YROS->db->pdo_success = false;
-            return ["code"=>-1, "status"=>"error", "message"=>$e->getMessage(), "file"=>$e->getFile()." line ".$e->getLine()];
+            $this->db_errors[] = $disp;
+            return ["code"=>-1, "status"=>"error", "message"=>$err, "file"=>$disp];
         }
     }
 
@@ -106,9 +137,13 @@ class Db_lib{
             }
             }
         catch (Exception $e) {
-            write_sql_log("Previous query failed: ".$e->getMessage()." @ ".$e->getFile()." line ".$e->getLine());
+            $err = $e->getMessage();
+            $disp = display_error111($err);
+            write_sql_log($disp);
             $YROS->db->pdo_success = false;
-            return ["code"=>-1, "status"=>"error", "message"=>$e->getMessage(), "file"=>$e->getFile()." line ".$e->getLine()];
+            $this->db_errors[] = $disp;
+            $return = ["code"=>-1, "status"=>"error", "message"=>$err, "file"=>$disp];
+            return $return;
         }
     }
 
@@ -131,9 +166,12 @@ class Db_lib{
             }
         }
         catch(Exception $e){
-            write_sql_log("Previous query failed: ".$e->getMessage()." @ ".$e->getFile()." line ".$e->getLine());
+            $err = $e->getMessage();
+            $disp = display_error111($err);
+            write_sql_log($disp);
             $YROS->db->pdo_success = false;
-            return ["code"=>-1, "status"=>"error", "message"=>$e->getMessage(), "file"=>$e->getFile()." line ".$e->getLine()];
+            $this->db_errors[] = $disp;
+            return ["code"=>-1, "status"=>"error", "message"=>$err, "file"=>$disp];
         }    
     }
 
@@ -143,7 +181,7 @@ class Db_lib{
             $result = $YROS->db->update($table, $data, $conditions);
             if(isset($result)){
                 if($result == 0||$result=="0"){
-                    return ["code"=>200, "status"=>"success", "message"=>"Success, but no data has been deleted", "affected_rows"=>$result, "conditions"=>$conditions];
+                    return ["code"=>200, "status"=>"success", "message"=>"Success, but no data has been affected", "affected_rows"=>$result, "conditions"=>$conditions];
                 }
                 else{
                     return ["code"=>200, "status"=>"success", "message"=>"Data updated successfully", "affected_rows"=>$result, "conditions"=>$conditions];
@@ -155,11 +193,47 @@ class Db_lib{
             }
         }
         catch(Exception $e){
-            write_sql_log("Previous query failed: ".$e->getMessage()." @ ".$e->getFile()." line ".$e->getLine());
+            $err = $e->getMessage();
+            $disp = display_error111($err);
+            write_sql_log($disp);
             $YROS->db->pdo_success = false;
-            return ["code"=>-1, "status"=>"error", "message"=>$e->getMessage(), "file"=>$e->getFile()." line ".$e->getLine()];
+            $this->db_errors[] = $disp;
+            return ["code"=>-1, "status"=>"error", "message"=>$err, "file"=>$disp];
         }
     }
+
+
+
+    public function db_dump(array $result, string $error_map=""){
+        if(! isset($result['code'])){
+            die("Key: code is not found inside result array");
+        }
+        if($result['code'] != SUCCESS){
+            if($error_map=="" || $error_map==null){
+                show_error($result['message']);
+            }else{
+                trigger_error("Error: ".$result['message']." @ ".$error_map);exit;
+            }
+        }
+    }
+
+   public function db_result_dump(array $result, string $key=null):bool{
+        $ret = false;
+        if(! isset($result['code'])){
+            die("code is not found inside result array");
+        }
+        if($result['code'] != SUCCESS){
+            show_error(" ===> SQL ERROR: ".$result['message']);
+        }else{
+            if($key != null && $key != ""){
+                if(! isset($result[$key])){
+                    die("Your Key: [$key] is not found inside result array");
+                }      
+            }
+            $ret = true;
+        }
+        return $ret;
+   }
 
     public function db_last_query(){
         $YROS = &Yros::get_instance();

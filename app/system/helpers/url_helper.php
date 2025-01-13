@@ -12,6 +12,7 @@ if(! function_exists("redirect_to")){
 
 if(! function_exists("redirect")){
     function redirect(string $controller, bool $save_input_values = false, int $delay=0){
+        $controller = $controller[0] === '/' ? substr($controller, 1) : $controller;
         $YROS =  &Yros::get_instance();
         if($YROS->removeinputvalues == true){
             remove_saved_values();
@@ -141,6 +142,7 @@ if(! function_exists("get_main_page_url")){
 
 if(! function_exists("path")){
     function path(string|array $path, array $parameters = [], bool $secure = false):string{
+        $path = $path[0] === '/' ? substr($path, 1) : $path;
         $YROS = &Yros::get_instance();
         return $YROS->routelib->getPathUrl($path, $parameters, $secure);
     }
@@ -148,6 +150,7 @@ if(! function_exists("path")){
 
 if(! function_exists("controller")){
     function controller(string|array $controller, array $parameters = [], bool $secure = false):string{
+        $controller = $controller[0] === '/' ? substr($controller, 1) : $controller;
         $YROS = &Yros::get_instance();
         return $YROS->routelib->getControllerURL($controller, $parameters, $secure);
     }
@@ -155,6 +158,7 @@ if(! function_exists("controller")){
 
 if(! function_exists('controller_name')){
     function controller_name(string $controller, string $function="", array $parameters = []):string{
+        $controller = $controller[0] === '/' ? substr($controller, 1) : $controller;
         $YROS = &Yros::get_instance();
         $class = "";
         if(substr($controller, -4)==".php"){
@@ -178,6 +182,17 @@ if(! function_exists("public_path")){
     }
 }
 
+if(! function_exists("public_code_path")){
+    function public_code_path(string $path = ""):string{
+        if($path==""||$path==null){
+            return rootpath."public/code/";
+        }
+        else{
+            return rootpath."public/code/".$path;
+        }
+    }
+}
+
 if(! function_exists("route")){
     function route(string|array $route_name, array $parameters = [], bool $secure = false, bool $show_controller = false):string{
         $YROS = &Yros::get_instance();
@@ -186,6 +201,7 @@ if(! function_exists("route")){
 }
 
 if(! function_exists("img")){
+    /** (String) returns the path inside public/img folder */
     function img(string $img=""):string{
         if($img=="" || $img==null){
             return img;
@@ -197,6 +213,7 @@ if(! function_exists("img")){
 }
 
 if(! function_exists("src")){
+    /** (String) returns the path inside public/src folder */
     function src(string $src=""):string{
         if($src=="" || $src==null){
             return src;
@@ -207,7 +224,20 @@ if(! function_exists("src")){
     }
 }
 
+if(! function_exists("javascripts")){
+    /** (String) returns the path inside public/src folder */
+    function javascripts(string $javascripts=""):string{
+        if($javascripts=="" || $javascripts==null){
+            return javascripts;
+        }
+        else{
+            return javascripts."/".$javascripts;
+        }
+    }
+}
+
 if(! function_exists("assets")){
+    /** (String) returns the path inside public/assets folder */
     function assets(string $assets=""):string{
         if($assets=="" || $assets==null){
             return assets;
@@ -219,6 +249,7 @@ if(! function_exists("assets")){
 }
 
 if(! function_exists("uploads")){
+    /** (String) returns the path inside public/uploads folder */
     function uploads(string $uploads=""):string{
         if($uploads=="" || $uploads==null){
             return uploads;
@@ -230,6 +261,7 @@ if(! function_exists("uploads")){
 }
 
 if(! function_exists("view")){
+    /** (Void) Display/View the php file inside views folder */
     function view(string $view, array $data=[]){
         $YROS = &Yros::get_instance();
         $YROS->view($view, $data);
@@ -237,6 +269,7 @@ if(! function_exists("view")){
 }
 
 if(! function_exists("view_error")){
+    /** (Void) Display/View the php file inside views/errors folder */
     function view_error(string $view, array $data=[]){
         $YROS = &Yros::get_instance();
         $YROS->view_error($view, $data);
@@ -245,6 +278,7 @@ if(! function_exists("view_error")){
 
 
 if(! function_exists("view_include_page")){
+    /** (Void) Display/View the php file inside views/includes folder */
     function view_include_page(string $view, array $data=[]){
         $YROS = &Yros::get_instance();
         $YROS->view_include($view, $data);
@@ -252,12 +286,14 @@ if(! function_exists("view_include_page")){
 }
 
 if(! function_exists("include_page")){
+    /** (Void) Display/View the php file inside views/includes folder */
     function include_page(string $view, array $data=[]){
         view_include_page($view, $data);
     }
 }
 
 if(! function_exists("view_page")){
+    /** (Void) Display/View the php file inside views/pages folder */
     function view_page(string $view, array $data=[]){
         $YROS = &Yros::get_instance();
         $YROS->view_page($view, $data);

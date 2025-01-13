@@ -2,9 +2,8 @@
 /**
  * This is autorun file, where system automatically runs this scrips for every page
  */
-
 function checklogin(){
-    $login = $_SESSION['login'];
+    $login = $_SESSION['login'] ?? null;
     if($login == 1){
         view_page('dashboard.php');
     }
@@ -13,6 +12,7 @@ else{
 }
 exit;
 }
+
 
 
 ?>

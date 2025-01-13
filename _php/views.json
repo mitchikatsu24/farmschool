@@ -1,0 +1,16 @@
+{
+    "pages/welcome.php@Main/welcome_page": {
+        "view": "pages/welcome.php",
+        "controller": "Main",
+        "function": "welcome_page",
+        "path": "Main/welcome_page",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "pages/login.php@Accounts/login": {
+        "view": "pages/login.php",
+        "controller": "Accounts",
+        "function": "login",
+        "path": "Accounts/login",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    }
+}

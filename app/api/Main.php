@@ -3,8 +3,10 @@
     class Main extends Api{
 
         public function __construct() {
+            $this->default_header();
             parent::__construct();
             $YROS = &Yros::get_instance();
+            
         }
 
         //API:: stores universal functions that can be called across sites/apps.

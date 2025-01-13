@@ -6,10 +6,10 @@ if(! function_exists("json_response")){
         $YROS = &Yros::get_instance();
         if($direct==true){
             if($YROS->arraylib->isJsonArray($arr)){
-                echo $arr;
+                echo $arr;exit;
             }
             else{
-                echo json_encode($arr);
+                echo json_encode($arr);exit;
             }
             
         }
@@ -47,7 +47,7 @@ if(! function_exists("fetch_api")){
 if(! function_exists("my_post_api")){
     function my_post_api(string $apiurl,$data=[], $type="php"){
         include "app/config/api_config.php";
-        $headers = ["api_key:".$api_config['api_key'][0], "yros_key:".$api_config['yros_key'][0]];
+        $headers = ["apikey:".$api_config['apikey'][0], "yros_key:".$api_config['yros_key'][0]];
         $apilink = isset($api_config['local_api_link']) ? $api_config['local_api_link'] : "";
         if($apilink=="" || $apilink==null){
             return post_api(get_root_page()."api/".$apiurl, $headers, $data, $type);

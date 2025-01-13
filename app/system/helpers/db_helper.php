@@ -16,6 +16,52 @@ if(! function_exists("db_set_query")){
 }
 
 
+if(! function_exists("db_dump_errors")){
+    /** (Void) display/track sql result error */
+    function db_dump_errors(){
+        $errs = db_errors();
+        if(! empty($errs)){
+            $sz = sizeof($errs);
+            $msg = "";
+            $count = 1;
+            foreach($errs as $key){
+                $msg .= strval($count).". ".$key."<br>";
+                $count += 1;
+            }
+            if($sz<=1){
+                echo "<br>DB transaction error:<br>"."<span style='color:red;'>$msg</span>";exit;
+            }else{
+                echo "<br>DB transaction errors:<br>"."<span style='color:red;'>$msg</span>";exit;
+            }
+        }
+    }
+}
+
+if(! function_exists("db_result_dump")){
+     /** (Mixed) display/track result sql result error */
+     /** If changeValue is true: when the sql result is success, the result value will changed as the selected key */
+    function db_result_dump(array &$result, string $key=null, $changeValue = true){
+        $r = null;
+        $YROS = &Yros::get_instance();
+        $ret = $YROS->dblib->db_result_dump($result, $key);
+        if($ret == true){
+            if($key != null && $key != ""){
+                if($changeValue==true){$result = $result[$key];}else{
+                    $result = $result;
+                }
+                $r = $result;
+            }else{
+                $result = $result;
+                $r = $result;
+            }
+        }else{
+            $result = $result;
+            $r = $result;
+        }
+        return $r;
+    }
+}
+
 
 if(! function_exists("db_insert")){
     function db_insert(string $table, string|array|int &$data, bool $array_data_remain = false){
@@ -47,13 +93,29 @@ if(! function_exists("db_insert")){
 }
 
 if(! function_exists("db_select")){
-    function db_select(string $table, array|string $columns =["*"], string $conditions="", array $parameters =[] ){
+    function db_select(string $table, array|string $columns =["*"], string $patern="", array $parameters =[] ){
         $YROS = &Yros::get_instance();
-        return $YROS->dblib->db_select($table, $columns, $conditions, $parameters);
+        return $YROS->dblib->db_select($table, $columns, $patern, $parameters);
+    }
+}
+
+if(! function_exists("db_select_all_where")){
+    function db_select_all_where(string|array $table, array|string $where, array $parameters=[]){
+        $YROS = &Yros::get_instance();
+        return $YROS->dblib->select_all_where($table, $where, $parameters);
+    }
+}
+
+if(! function_exists("db_select_all")){
+    function db_select_all(string|array $table){
+        return db_select($table);
     }
 }
 
 if(! function_exists("db_delete")){
+    /** (Array) return the result of the delete command */
+    /** $table = name of the table where the data you want to delete */
+    /** $conditions (where) = where the data to delete */
     function db_delete(string $table, array|string|int &$conditions, bool $array_data_remain = false){
         $YROS = &Yros::get_instance();
         if(is_array($conditions)){
@@ -95,6 +157,10 @@ if(! function_exists("dbData")){
 }
 
 if(! function_exists("db_update")){
+    /** (Array) return the result of the delete command */
+    /** $table = name of the table you want to update */
+    /** $data (set) = set the new value in the specific column*/
+    /** $conditions (where) = where the data to update */
     function db_update(string $table, array|int &$data, array|int &$conditions, bool $array_data_remain = false){
         $YROS = &Yros::get_instance();
         if(is_array($data) && is_array($conditions)){
@@ -145,6 +211,39 @@ if(! function_exists("db_tracker_complete")){
         FunctionPair::callSecond('db_tracker_complete');
     }
 }
+
+if(! function_exists("db_errors")){
+    /** (Array) get the array list of all database errors */
+    function db_errors():array{
+        $YROS = &Yros::get_instance();
+        return $YROS->dblib->db_errors;
+    }
+}
+
+if(! function_exists("db_last_error")){
+    /** (Any) display the error from last query */
+    function db_last_error(){
+        $YROS = &Yros::get_instance();
+        $errs = $YROS->dblib->db_errors;
+        if(empty($errs)){
+            return null;
+        }
+        return end($errs);
+    }
+}
+
+if(! function_exists("db_dump_last_error")){
+    /** (Void) display the last database error */
+    function db_dump_last_error(){
+        $YROS = &Yros::get_instance();
+        $errs = $YROS->dblib->db_errors;
+        if(! empty($errs)){
+            $last = end($errs);
+            echo "<br><span style='color:red;'>".$last."</span>";exit;
+        }
+    }
+}
+
 FunctionPair::pair('db_tracker_start', 'db_tracker_complete');
 
 ?>
