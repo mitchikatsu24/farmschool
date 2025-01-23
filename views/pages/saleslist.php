@@ -1,6 +1,6 @@
 <?php
-set_session_data("pagename", "saleslist");
-$pos_data = db_set_query("select t.customer_name, d.Product_name, d.Price, d.pricing,t.amount_tendered, t.date, d.id ,p.qty  from tbl_transaction t, tbl_pos p, tbl_products d where t.id = p.status and p.product_id = d.id;")['data'];
+set_session_data("pagename", "saleslists");
+$pos_data = db_set_query("select t.id 'tid', t.customer_name, d.Product_name, d.Price, d.pricing,t.amount_tendered, t.date, d.id ,p.qty  from tbl_transaction t, tbl_pos p, tbl_products d where t.id = p.status and p.product_id = d.id;")['data'];
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -139,14 +139,14 @@ $pos_data = db_set_query("select t.customer_name, d.Product_name, d.Price, d.pri
 <tbody>
 <?php while($column=fetch_array($pos_data)):  ?>
     <?php
+      $trans_id = $column['tid'];
       $trans_date= $column['date']; 
       $cus_name = $column['customer_name'];
       $prod_name = $column['Product_name'];
       $price = $column['Price'];
       $pricing = $column['pricing'];
       $amt = $column['amount_tendered'];
-      $description = $column['Description'];
-      $pict = $column["Image"];
+
       $qty = $column["qty"];
       $total = $price*$qty;
       $id = $column['id'];
@@ -180,7 +180,7 @@ $pos_data = db_set_query("select t.customer_name, d.Product_name, d.Price, d.pri
 <a href="edit-sales.html" class="dropdown-item"><img src="<?=assets?>/img/icons/edit.svg" class="me-2" alt="img">Edit Sale</a>
 </li>
 <li>
-<a href="javascript:void(0);" class="dropdown-item confirm-text"><img src="<?=assets?>/img/icons/delete1.svg" class="me-2" alt="img">Delete Sale</a>
+<a href="javascript:void(0);" onclick="delete_trans(<?=$trans_id?>)" class="dropdown-item"><img src="<?=assets?>/img/icons/delete1.svg" class="me-2" alt="img" >Delete Sale</a>
 </li>
 </ul>
 </td>
@@ -225,7 +225,7 @@ $pos_data = db_set_query("select t.customer_name, d.Product_name, d.Price, d.pri
 <td>Cash</td>
 <td>
 <a class="me-2" href="javascript:void(0);">
-<img src="<?=assets?>/img/icons/printer.svg" alt="img">
+<img src="<?=assets?>/img/icons/printer.svg" alt="img"> 
 </a>
 <a class="me-2" href="javascript:void(0);" data-bs-target="#editpayment" data-bs-toggle="modal" data-bs-dismiss="modal">
 <img src="<?=assets?>/img/icons/edit.svg" alt="img">
@@ -393,6 +393,43 @@ $pos_data = db_set_query("select t.customer_name, d.Product_name, d.Price, d.pri
 <script src="<?=assets?>/plugins/sweetalert/sweetalert2.all.min.js"></script>
 <script src="<?=assets?>/plugins/sweetalert/sweetalerts.min.js"></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 <script src="<?=assets?>/js/script.js"></script>
+
+<?php import_jspost() ?>
+
+<script>
+     function delete_trans(id){
+      Swal.fire({
+        title: 'Are you sure?',
+        text: 'Delete transaction id '+id,
+        icon: 'warning',
+        showCancelButton: true,
+        confirmButtonText: 'Yes, delete it!',
+        cancelButtonText: 'No, cancel!'
+        }).then(async(result) => {
+            if (result.isConfirmed) {
+                let result = await direct_get("/sales/delete_transaction", {"ry_id":id});
+                Swal.fire({
+                            title: 'SUCCESS',
+                            text: result.backend.message,
+                            icon: 'success',
+                            confirmButtonText: 'Okay'
+                        }).then((result)=>{
+                          reload();
+                        });
+                    }
+        });
+
+
+   
+
+     
+      
+      
+    }
+</script>
+
 </body>
 </html>

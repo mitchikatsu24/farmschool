@@ -46,13 +46,20 @@
             $res = db_update("tbl_pos",$update, $where);
             back_to_previous_page();
         }
-        function saleslist(){
+        function saleslist_p(){
             view_page('saleslist.php');
         }
         function dashboard(){
             checklogin();
             $data['report'] = db_set_query("select sum(p.qty) 'sold' ,sum(d.Price) 'income',sum(d.Price) * p.qty 'sales', p.datetime from tbl_transaction t, tbl_pos p, tbl_products d where t.id = p.status and p.product_id = d.id group by p.datetime")['data'];
             view_page('dashboard.php', $data);
+        }
+
+
+        function delete_transaction(){
+            $where["id"] = get("ry_id");
+            $result = db_delete("tbl_transaction", $where);
+            json_response($result);
         }
 
 

@@ -36,7 +36,7 @@ set_session_data("pagename", "dashboard");
 
 </div>
 <?php $allsales = db_set_query("select sum(p.qty) 'sold' ,sum(d.Price) 'income',sum(d.Price) * p.qty 'sales', p.datetime from tbl_transaction t, tbl_pos p, tbl_products d where t.id = p.status and p.product_id = d.id")['first_row']; ?>
-<?=$allCustomer = db_set_query("select count(*) from tbl_transaction GROUP by customer_name")['data']?>
+<?php $allCustomer = db_set_query("select count(*) from tbl_transaction GROUP by customer_name")['data']?>
 <?=$allproducts = db_set_query("select sum(Quantity) as 'Quantity' from tbl_products ")['single']['Quantity']?>
 <?=$allsold = db_set_query("select sum(qty) as 'qty' from tbl_pos ")['single']['qty']?>
 <div class="page-wrapper">
@@ -155,7 +155,7 @@ set_session_data("pagename", "dashboard");
 </tr>
 </thead>
 <tbody>
-<?= $soldprod = db_set_query("select t.id as 'transid',t.customer_name, d.Product_name, d.Image, d.Price, d.pricing,t.amount_tendered, t.date, d.id ,p.qty from tbl_transaction t, tbl_pos p, tbl_products d where t.id = p.status and p.product_id = d.id order by t.id desc limit 5")['data'] ?>
+<?php $soldprod = db_set_query("select t.id as 'transid',t.customer_name, d.Product_name, d.Image, d.Price, d.pricing,t.amount_tendered, t.date, d.id ,p.qty from tbl_transaction t, tbl_pos p, tbl_products d where t.id = p.status and p.product_id = d.id order by t.id desc limit 5")['data'] ?>
 <?php while($column = fetch_array($soldprod)): ?>
     <tr>
     <td><?=$column['transid']?></td>
@@ -175,81 +175,7 @@ set_session_data("pagename", "dashboard");
 </div>
 </div>
 </div>
-<div class="card mb-0">
-<div class="card-body">
-<h4 class="card-title">Expired Products</h4>
-<div class="table-responsive dataview">
-<table class="table datatable ">
-<thead>
-<tr>
-<th>SNo</th>
-<th>Product Code</th>
-<th>Product Name</th>
-<th>Brand Name</th>
-<th>Category Name</th>
-<th>Expiry Date</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td><a href="javascript:void(0);">IT0001</a></td>
-<td class="productimgname">
-<a class="product-img" href="productlist.html">
-<img src="<?=assets?>/img/product/product2.jpg" alt="product">
-</a>
-<a href="productlist.html">Orange</a>
-</td>
-<td>N/D</td>
-<td>Fruits</td>
-<td>12-12-2022</td>
-</tr>
-<tr>
-<td>2</td>
-<td><a href="javascript:void(0);">IT0002</a></td>
-<td class="productimgname">
-<a class="product-img" href="productlist.html">
-<img src="<?=assets?>/img/product/product3.jpg" alt="product">
-</a>
-<a href="productlist.html">Pineapple</a>
-</td>
-<td>N/D</td>
-<td>Fruits</td>
-<td>25-11-2022</td>
-</tr>
-<tr>
-<td>3</td>
-<td><a href="javascript:void(0);">IT0003</a></td>
-<td class="productimgname">
-<a class="product-img" href="productlist.html">
-<img src="<?=assets?>/img/product/product4.jpg" alt="product">
-</a>
-<a href="productlist.html">Stawberry</a>
-</td>
-<td>N/D</td>
-<td>Fruits</td>
-<td>19-11-2022</td>
-</tr>
-<tr>
-<td>4</td>
-<td><a href="javascript:void(0);">IT0004</a></td>
-<td class="productimgname">
-<a class="product-img" href="productlist.html">
-<img src="<?=assets?>/img/product/product5.jpg" alt="product">
-</a>
-<a href="productlist.html">Avocat</a>
-</td>
-<td>N/D</td>
-<td>Fruits</td>
-<td>20-11-2022</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-</div>
-</div>
+
 </div>
 
 
@@ -281,7 +207,7 @@ function monthlySold($date){
 }
 ?>
 
-<?php display(db_last_query()) ?>
+
 <script>
     var jan = "<?=monthlySales('01')?>";
     var feb = "<?=monthlySales('02')?>";

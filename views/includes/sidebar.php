@@ -17,9 +17,8 @@
 <li class="submenu">
 <a href="javascript:void(0);"><img src="<?=assets?>/img/icons/sales1.svg" alt="img"><span> Sales</span> <span class="menu-arrow"></span></a>
 <ul>
-<li><a href="/sales/saleslist" id="saleslist">Sales List</a></li>
+<li><a href="/sales/saleslist_p" id="saleslists">Sales List</a></li>
 <li><a href="/products/checkout">POS</a></li>
-<li><a href="pos.html">New Sales</a></li>
 </ul>
 </li>
 <li class="submenu">

@@ -28,6 +28,7 @@
                 back_to_previous_page();
             }else{
                 $_SESSION['login'] =1;
+                set_session("userid", $result['id']);
                 redirect("sales/dashboard");
             }
 

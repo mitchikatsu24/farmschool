@@ -61,7 +61,7 @@
 <select name ="Category"  class="select">
 <option>vegetables</option>
 <option>animals</option>
-<option>foods</option>
+<option>fruits</option>
 
 </select>
 </div>

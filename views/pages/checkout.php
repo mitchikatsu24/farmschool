@@ -1,6 +1,9 @@
 
 <?php
-$data = db_select('tbl_products')['data']
+$vegetable = db_set_query("select * from tbl_products where category = 'vegetables'")['data'];
+$animals = db_set_query("select * from tbl_products where category = 'animals'")['data'];
+$fruits = db_set_query("select * from tbl_products where category = 'fruits'")['data'];
+
 ?>
 <?php
 $pos_data = db_set_query("select p.pos_id,p.product_id,p.datetime,p.qty,p.status,t.product_name ,t.price,t.pricing,t.Image FROM tbl_pos p,tbl_products t WHERE p.product_id = t.id AND p.status = 0;")["data"];
@@ -61,7 +64,7 @@ $pos_data = db_set_query("select p.pos_id,p.product_id,p.datetime,p.qty,p.status
 <li id="headphone">
 <div class="product-details ">
 <img src="<?=assets?>/img/product/product63.png" alt="img">
-<h6>Headphones</h6>
+<h6>Animals</h6>
 </div>
 </li>
 <li class="active" id="fruits">
@@ -73,7 +76,7 @@ $pos_data = db_set_query("select p.pos_id,p.product_id,p.datetime,p.qty,p.status
 <li id="Accessories">
 <div class="product-details">
 <img src="<?=assets?>/img/product/product64.png" alt="img">
-<h6>Animal</h6>
+<h6>fruits</h6>
 </div>
 </li>
 <li id="fruits1">
@@ -87,7 +90,7 @@ $pos_data = db_set_query("select p.pos_id,p.product_id,p.datetime,p.qty,p.status
 <div class="tab_content active" data-tab="fruits">
 <div class="row ">
 
-<?php while($column=fetch_array($data)):  ?>
+<?php while($column=fetch_array($vegetable)):  ?>
     <?php
       $id = $column['id']; 
       $prod_name = $column['Product_name'];
@@ -136,74 +139,94 @@ $pos_data = db_set_query("select p.pos_id,p.product_id,p.datetime,p.qty,p.status
 </div>
 <div class="tab_content" data-tab="headphone">
 <div class="row ">
+
+<?php while($column=fetch_array($animals)):  ?>
+    <?php
+      $id = $column['id']; 
+      $prod_name = $column['Product_name'];
+      $category = $column['Category'];
+      $price = $column['Price'];
+      $pricing = $column['pricing'];
+      $qty = $column['Quantity'];
+      $description = $column['Description'];
+      $pict = $column["Image"];
+
+      $prod = db_set_query("select sum(qty) as 'pqty' from tbl_pos where product_id = $id")['single'];
+      $pqty = $prod['pqty'];
+      $qty_left = $qty - $pqty;
+
+      
+        ?>
+
 <div class="col-lg-3 col-sm-6 d-flex ">
-<div class="productset flex-fill">
+<div class="productset flex-fill active">
 <div class="productsetimg">
-<img src="<?=assets?>/img/product/product44.jpg" alt="img">
-<h6>Qty: 5.00</h6>
+<?php if($pict==null): ?>
+<img src="<?=assets?>/img/product/picture.png" alt="img">
+<?php else: ?>
+    <img src="<?=uploads($pict)?>" alt="img">
+<?php endif; ?>
+<h6>Qty:<?=$qty_left?></h6>
 <div class="check-product">
 <i class="fa fa-check"></i>
 </div>
 </div>
 <div class="productsetcontent">
-<h5>Headphones</h5>
-<h4>Earphones</h4>
-<h6>150.00</h6>
+<h5><?=$category?></h5>
+<h4><?=$prod_name?></h4>
+<h6><?=$price." ".$pricing?></h6>
+<a href="/products/addtocart?pos_id=<?=$id?>"><button style ="width:130px;font-size:13px;font-weight:800;padding:5px 2px;display:flex;align-items:center;margin:auto;justify-content:center; " class ="btn btn-adds"><i class="ri-add-box-fill" style ="font-size:23px;"></i>Add to cart</button></a>
 </div>
 </div>
 </div>
-<div class="col-lg-3 col-sm-6 d-flex ">
-<div class="productset flex-fill">
-<div class="productsetimg">
-<img src="<?=assets?>/img/product/product45.jpg" alt="img">
-<h6>Qty: 5.00</h6>
-<div class="check-product">
-<i class="fa fa-check"></i>
-</div>
-</div>
-<div class="productsetcontent">
-<h5>Headphones</h5>
-<h4>Earphones</h4>
-<h6>150.00</h6>
-</div>
-</div>
-</div>
-<div class="col-lg-3 col-sm-6 d-flex ">
-<div class="productset flex-fill">
-<div class="productsetimg">
-<img src="<?=assets?>/img/product/product36.jpg" alt="img">
-<h6>Qty: 5.00</h6>
-<div class="check-product">
-<i class="fa fa-check"></i>
-</div>
-</div>
-<div class="productsetcontent">
-<h5>Headphones</h5>
-<h4>Earphones</h4>
-<h6>150.00</h6>
-</div>
-</div>
-</div>
+
+<?php endwhile; ?>
+
 </div>
 </div>
 <div class="tab_content" data-tab="Accessories">
 <div class="row">
+<?php while($column=fetch_array($fruits)):  ?>
+    <?php
+      $id = $column['id']; 
+      $prod_name = $column['Product_name'];
+      $category = $column['Category'];
+      $price = $column['Price'];
+      $pricing = $column['pricing'];
+      $qty = $column['Quantity'];
+      $description = $column['Description'];
+      $pict = $column["Image"];
+
+      $prod = db_set_query("select sum(qty) as 'pqty' from tbl_pos where product_id = $id")['single'];
+      $pqty = $prod['pqty'];
+      $qty_left = $qty - $pqty;
+
+      
+        ?>
+
 <div class="col-lg-3 col-sm-6 d-flex ">
-<div class="productset flex-fill">
+<div class="productset flex-fill active">
 <div class="productsetimg">
-<img src="<?=assets?>/img/product/product55.jpg" alt="img">
-<h6>Qty: 1.00</h6>
+<?php if($pict==null): ?>
+<img src="<?=assets?>/img/product/picture.png" alt="img">
+<?php else: ?>
+    <img src="<?=uploads($pict)?>" alt="img">
+<?php endif; ?>
+<h6>Qty:<?=$qty_left?></h6>
 <div class="check-product">
 <i class="fa fa-check"></i>
 </div>
 </div>
 <div class="productsetcontent">
-<h5>Accessories</h5>
-<h4>Mouse</h4>
-<h6>150.00</h6>
+<h5><?=$category?></h5>
+<h4><?=$prod_name?></h4>
+<h6><?=$price." ".$pricing?></h6>
+<a href="/products/addtocart?pos_id=<?=$id?>"><button style ="width:130px;font-size:13px;font-weight:800;padding:5px 2px;display:flex;align-items:center;margin:auto;justify-content:center; " class ="btn btn-adds"><i class="ri-add-box-fill" style ="font-size:23px;"></i>Add to cart</button></a>
 </div>
 </div>
 </div>
+
+<?php endwhile; ?>
 </div>
 </div>
 <div class="tab_content" data-tab="Shoes">
@@ -531,9 +554,9 @@ $pos_data = db_set_query("select p.pos_id,p.product_id,p.datetime,p.qty,p.status
 <?php while($column=fetch_array($pos_data)):  ?>
     <?php
       $id = $column['pos_id']; 
-      $prod_id = $column['Product_id'];
+      $prod_id = $column['product_id'];
       $date = $column['datetime'];
-      $stat = $column['satatus'];
+      $stat = $column['status'];
       $product =$column['product_name'];
       $price =$column['price'];
       $img =$column['Image'];
@@ -581,7 +604,9 @@ $pos_data = db_set_query("select p.pos_id,p.product_id,p.datetime,p.qty,p.status
 
 <?php
 
-
+$tax = 0.12;
+$vat = $tax / 100;
+$tax = $vat * $grand_total;
 
 
 ?>
